@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_detector = vision_system.aruco_detector:main
+camera_node = vision_system.camera_node:main
+

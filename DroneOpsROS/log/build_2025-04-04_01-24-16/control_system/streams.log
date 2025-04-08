@@ -1,0 +1,37 @@
+[0.758s] Invoking command in '/root/DroneOpsROS/src/control_system': PYTHONPATH=/root/DroneOpsROS/build/control_system/prefix_override:/root/DroneOpsROS/install/control_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_system build --build-base /root/DroneOpsROS/build/control_system/build install --record /root/DroneOpsROS/build/control_system/install.log --install-scripts $base/lib/control_system --single-version-externally-managed
+[0.969s] running egg_info
+[0.970s] creating ../../build/control_system/control_system.egg-info
+[0.970s] writing ../../build/control_system/control_system.egg-info/PKG-INFO
+[0.970s] writing dependency_links to ../../build/control_system/control_system.egg-info/dependency_links.txt
+[0.971s] writing entry points to ../../build/control_system/control_system.egg-info/entry_points.txt
+[0.971s] writing requirements to ../../build/control_system/control_system.egg-info/requires.txt
+[0.971s] writing top-level names to ../../build/control_system/control_system.egg-info/top_level.txt
+[0.973s] writing manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'
+[1.013s] reading manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'
+[1.014s] writing manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'
+[1.014s] running build
+[1.014s] running build_py
+[1.014s] creating /root/DroneOpsROS/build/control_system/build
+[1.015s] creating /root/DroneOpsROS/build/control_system/build/lib
+[1.015s] creating /root/DroneOpsROS/build/control_system/build/lib/control_system
+[1.015s] copying control_system/__init__.py -> /root/DroneOpsROS/build/control_system/build/lib/control_system
+[1.015s] copying control_system/nodo_control.py -> /root/DroneOpsROS/build/control_system/build/lib/control_system
+[1.015s] running install
+[1.015s] running install_lib
+[1.016s] creating /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system
+[1.016s] copying /root/DroneOpsROS/build/control_system/build/lib/control_system/__init__.py -> /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system
+[1.016s] copying /root/DroneOpsROS/build/control_system/build/lib/control_system/nodo_control.py -> /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system
+[1.017s] byte-compiling /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system/__init__.py to __init__.cpython-38.pyc
+[1.018s] byte-compiling /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system/nodo_control.py to nodo_control.cpython-38.pyc
+[1.019s] running install_data
+[1.019s] creating /root/DroneOpsROS/install/control_system/share/ament_index
+[1.019s] creating /root/DroneOpsROS/install/control_system/share/ament_index/resource_index
+[1.019s] creating /root/DroneOpsROS/install/control_system/share/ament_index/resource_index/packages
+[1.019s] copying resource/control_system -> /root/DroneOpsROS/install/control_system/share/ament_index/resource_index/packages
+[1.020s] copying package.xml -> /root/DroneOpsROS/install/control_system/share/control_system
+[1.020s] running install_egg_info
+[1.021s] Copying ../../build/control_system/control_system.egg-info to /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system-0.0.0-py3.8.egg-info
+[1.022s] running install_scripts
+[1.041s] Installing nodo_control script to /root/DroneOpsROS/install/control_system/lib/control_system
+[1.041s] writing list of installed files to '/root/DroneOpsROS/build/control_system/install.log'
+[1.059s] Invoked command in '/root/DroneOpsROS/src/control_system' returned '0': PYTHONPATH=/root/DroneOpsROS/build/control_system/prefix_override:/root/DroneOpsROS/install/control_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_system build --build-base /root/DroneOpsROS/build/control_system/build install --record /root/DroneOpsROS/build/control_system/install.log --install-scripts $base/lib/control_system --single-version-externally-managed
