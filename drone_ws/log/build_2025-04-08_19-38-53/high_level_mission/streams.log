@@ -1,4 +1,0 @@
-[0.129s] Invoking command in '/home/manuel/drone_ws/build/high_level_mission': /usr/bin/cmake /home/manuel/drone_ws/src/high_level_mission -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/manuel/drone_ws/install/high_level_mission
-[0.241s] [0mCMake Error: The source directory "/home/manuel/drone_ws/src/high_level_mission" does not appear to contain CMakeLists.txt.
-[0.242s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.359s] Invoked command in '/home/manuel/drone_ws/build/high_level_mission' returned '1': /usr/bin/cmake /home/manuel/drone_ws/src/high_level_mission -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/manuel/drone_ws/install/high_level_mission

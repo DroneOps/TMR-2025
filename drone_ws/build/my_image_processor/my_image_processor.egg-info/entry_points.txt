@@ -1,2 +1,0 @@
-[console_scripts]
-image_viewer = my_image_processor.image_viewer:main
