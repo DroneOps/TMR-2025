@@ -1,0 +1,2 @@
+[console_scripts]
+pid_controller = aruco_drone_control.pid_controller_node:main

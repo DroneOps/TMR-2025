@@ -1,0 +1,33 @@
+/home/manuel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/my_aruco_detector/my_aruco_detector.egg-info
+writing ../../build/my_aruco_detector/my_aruco_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_aruco_detector/my_aruco_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/my_aruco_detector/my_aruco_detector.egg-info/entry_points.txt
+writing requirements to ../../build/my_aruco_detector/my_aruco_detector.egg-info/requires.txt
+writing top-level names to ../../build/my_aruco_detector/my_aruco_detector.egg-info/top_level.txt
+writing manifest file '../../build/my_aruco_detector/my_aruco_detector.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_aruco_detector/my_aruco_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_aruco_detector/my_aruco_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manuel/drone_ws/build/my_aruco_detector/build/lib/my_aruco_detector
+copying my_aruco_detector/aruco_detector.py -> /home/manuel/drone_ws/build/my_aruco_detector/build/lib/my_aruco_detector
+copying my_aruco_detector/__init__.py -> /home/manuel/drone_ws/build/my_aruco_detector/build/lib/my_aruco_detector
+running install
+running install_lib
+creating /home/manuel/drone_ws/install/my_aruco_detector/lib/python3.10/site-packages/my_aruco_detector
+copying /home/manuel/drone_ws/build/my_aruco_detector/build/lib/my_aruco_detector/aruco_detector.py -> /home/manuel/drone_ws/install/my_aruco_detector/lib/python3.10/site-packages/my_aruco_detector
+copying /home/manuel/drone_ws/build/my_aruco_detector/build/lib/my_aruco_detector/__init__.py -> /home/manuel/drone_ws/install/my_aruco_detector/lib/python3.10/site-packages/my_aruco_detector
+byte-compiling /home/manuel/drone_ws/install/my_aruco_detector/lib/python3.10/site-packages/my_aruco_detector/aruco_detector.py to aruco_detector.cpython-310.pyc
+byte-compiling /home/manuel/drone_ws/install/my_aruco_detector/lib/python3.10/site-packages/my_aruco_detector/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/manuel/drone_ws/install/my_aruco_detector/share/ament_index/resource_index/packages
+copying resource/my_aruco_detector -> /home/manuel/drone_ws/install/my_aruco_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/manuel/drone_ws/install/my_aruco_detector/share/my_aruco_detector
+running install_egg_info
+Copying ../../build/my_aruco_detector/my_aruco_detector.egg-info to /home/manuel/drone_ws/install/my_aruco_detector/lib/python3.10/site-packages/my_aruco_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_detector script to /home/manuel/drone_ws/install/my_aruco_detector/lib/my_aruco_detector
+writing list of installed files to '/home/manuel/drone_ws/build/my_aruco_detector/install.log'

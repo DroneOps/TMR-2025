@@ -1,0 +1,35 @@
+/home/manuel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/aruco_drone_control/aruco_drone_control.egg-info
+writing ../../build/aruco_drone_control/aruco_drone_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco_drone_control/aruco_drone_control.egg-info/dependency_links.txt
+writing entry points to ../../build/aruco_drone_control/aruco_drone_control.egg-info/entry_points.txt
+writing requirements to ../../build/aruco_drone_control/aruco_drone_control.egg-info/requires.txt
+writing top-level names to ../../build/aruco_drone_control/aruco_drone_control.egg-info/top_level.txt
+writing manifest file '../../build/aruco_drone_control/aruco_drone_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/aruco_drone_control/aruco_drone_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco_drone_control/aruco_drone_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control
+copying aruco_drone_control/pid_controller_node.py -> /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control
+copying aruco_drone_control/__init__.py -> /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control
+running install
+running install_lib
+creating /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control
+copying /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control/pid_controller_node.py -> /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control
+copying /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control/__init__.py -> /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control
+byte-compiling /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control/pid_controller_node.py to pid_controller_node.cpython-310.pyc
+byte-compiling /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/manuel/drone_ws/install/aruco_drone_control/share/ament_index/resource_index/packages
+copying resource/aruco_drone_control -> /home/manuel/drone_ws/install/aruco_drone_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/manuel/drone_ws/install/aruco_drone_control/share/aruco_drone_control
+creating /home/manuel/drone_ws/install/aruco_drone_control/share/aruco_drone_control/launch
+copying launch/mavros.launch.py -> /home/manuel/drone_ws/install/aruco_drone_control/share/aruco_drone_control/launch
+running install_egg_info
+Copying ../../build/aruco_drone_control/aruco_drone_control.egg-info to /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pid_controller script to /home/manuel/drone_ws/install/aruco_drone_control/lib/aruco_drone_control
+writing list of installed files to '/home/manuel/drone_ws/build/aruco_drone_control/install.log'
