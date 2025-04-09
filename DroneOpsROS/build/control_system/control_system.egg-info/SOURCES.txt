@@ -10,7 +10,6 @@ setup.py
 ../../build/control_system/control_system.egg-info/zip-safe
 control_system/__init__.py
 control_system/nodo_control.py
-launch/mavros_launch.py
 resource/control_system
 test/test_copyright.py
 test/test_flake8.py

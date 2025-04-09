@@ -1,0 +1,25 @@
+[1.337s] Invoking command in '/root/DroneOpsROS/src/mission_control': PYTHONPATH=/root/DroneOpsROS/build/mission_control/prefix_override:/root/DroneOpsROS/install/mission_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mission_control build --build-base /root/DroneOpsROS/build/mission_control/build install --record /root/DroneOpsROS/build/mission_control/install.log --install-scripts $base/lib/mission_control --single-version-externally-managed
+[1.600s] running egg_info
+[1.601s] writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
+[1.601s] writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt
+[1.601s] writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt
+[1.602s] writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt
+[1.602s] writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt
+[1.652s] reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[1.653s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[1.653s] running build
+[1.654s] running build_py
+[1.654s] copying mission_control/arm_drone.py -> /root/DroneOpsROS/build/mission_control/build/lib/mission_control
+[1.654s] running install
+[1.655s] running install_lib
+[1.658s] copying /root/DroneOpsROS/build/mission_control/build/lib/mission_control/arm_drone.py -> /root/DroneOpsROS/install/mission_control/lib/python3.8/site-packages/mission_control
+[1.658s] byte-compiling /root/DroneOpsROS/install/mission_control/lib/python3.8/site-packages/mission_control/arm_drone.py to arm_drone.cpython-38.pyc
+[1.662s] running install_data
+[1.662s] running install_egg_info
+[1.665s] removing '/root/DroneOpsROS/install/mission_control/lib/python3.8/site-packages/mission_control-0.0.0-py3.8.egg-info' (and everything under it)
+[1.665s] Copying ../../build/mission_control/mission_control.egg-info to /root/DroneOpsROS/install/mission_control/lib/python3.8/site-packages/mission_control-0.0.0-py3.8.egg-info
+[1.666s] running install_scripts
+[1.699s] Installing arm_drone script to /root/DroneOpsROS/install/mission_control/lib/mission_control
+[1.699s] Installing mission_manager script to /root/DroneOpsROS/install/mission_control/lib/mission_control
+[1.700s] writing list of installed files to '/root/DroneOpsROS/build/mission_control/install.log'
+[1.777s] Invoked command in '/root/DroneOpsROS/src/mission_control' returned '0': PYTHONPATH=/root/DroneOpsROS/build/mission_control/prefix_override:/root/DroneOpsROS/install/mission_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mission_control build --build-base /root/DroneOpsROS/build/mission_control/build install --record /root/DroneOpsROS/build/mission_control/install.log --install-scripts $base/lib/mission_control --single-version-externally-managed

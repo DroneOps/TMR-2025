@@ -1,0 +1,21 @@
+[1.334s] Invoking command in '/root/DroneOpsROS/src/control_system': PYTHONPATH=/root/DroneOpsROS/build/control_system/prefix_override:/root/DroneOpsROS/install/control_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_system build --build-base /root/DroneOpsROS/build/control_system/build install --record /root/DroneOpsROS/build/control_system/install.log --install-scripts $base/lib/control_system --single-version-externally-managed
+[1.597s] running egg_info
+[1.597s] writing ../../build/control_system/control_system.egg-info/PKG-INFO
+[1.598s] writing dependency_links to ../../build/control_system/control_system.egg-info/dependency_links.txt
+[1.598s] writing entry points to ../../build/control_system/control_system.egg-info/entry_points.txt
+[1.598s] writing requirements to ../../build/control_system/control_system.egg-info/requires.txt
+[1.599s] writing top-level names to ../../build/control_system/control_system.egg-info/top_level.txt
+[1.659s] reading manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'
+[1.660s] writing manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'
+[1.661s] running build
+[1.661s] running build_py
+[1.661s] running install
+[1.662s] running install_lib
+[1.664s] running install_data
+[1.665s] running install_egg_info
+[1.667s] removing '/root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system-0.0.0-py3.8.egg-info' (and everything under it)
+[1.667s] Copying ../../build/control_system/control_system.egg-info to /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system-0.0.0-py3.8.egg-info
+[1.669s] running install_scripts
+[1.693s] Installing nodo_control script to /root/DroneOpsROS/install/control_system/lib/control_system
+[1.694s] writing list of installed files to '/root/DroneOpsROS/build/control_system/install.log'
+[1.731s] Invoked command in '/root/DroneOpsROS/src/control_system' returned '0': PYTHONPATH=/root/DroneOpsROS/build/control_system/prefix_override:/root/DroneOpsROS/install/control_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_system build --build-base /root/DroneOpsROS/build/control_system/build install --record /root/DroneOpsROS/build/control_system/install.log --install-scripts $base/lib/control_system --single-version-externally-managed

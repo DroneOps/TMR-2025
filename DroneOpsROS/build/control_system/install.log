@@ -4,7 +4,7 @@
 /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system/__pycache__/nodo_control.cpython-38.pyc
 /root/DroneOpsROS/install/control_system/share/ament_index/resource_index/packages/control_system
 /root/DroneOpsROS/install/control_system/share/control_system/package.xml
-/root/DroneOpsROS/install/control_system/share/control_system/launch/mavros_launch.py
+/root/DroneOpsROS/install/control_system/share/control_system/launch
 /root/DroneOpsROS/install/control_system/share/control_system/config
 /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system-0.0.0-py3.8.egg-info/dependency_links.txt
 /root/DroneOpsROS/install/control_system/lib/python3.8/site-packages/control_system-0.0.0-py3.8.egg-info/PKG-INFO

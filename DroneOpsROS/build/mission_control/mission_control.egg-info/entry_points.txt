@@ -1,0 +1,4 @@
+[console_scripts]
+arm_drone = mission_control.arm_drone:main
+mission_manager = mission_control.mission_manager:main
+
