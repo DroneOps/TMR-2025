@@ -10,39 +10,40 @@ class arm_drone(Node):
     def __init__(self):
         super().__init__('arm_drone')
 
-        self.mode_client = self.create_client(SetMode, '/mavros/set_mode')
+        self.mode_client = self.create_client(SetMode, 'mavros/set_mode')
         self.arm_client = self.create_client(CommandBool, '/mavros/cmd/arming')
-        self.state_sub = self.create_subscription(State, '/mavros/state', self.state_cb, 10)
+        self.state_sub = self.create_subscription(State, 'mavros/state', self.state_cb, 10)
         self.current_state = None
+
+        #para manejo de si se detecat un cambio 
+        self.armed_drone_signal = False  
         self.prev_armed_drone_signal = None
-        self.armed_drone_signal = False
 
-        self.publisher = self.create_publisher(String, '/armedDrone', 10)
+        self.publisher = self.create_publisher(String, '/armed_drone', 10)
 
-        self.timer = self.create_timer(1.0, self.publish_armed_status_continuously)
+        # Publicar estado continuamente cada segundo
+        self.create_timer(1.0, self.publish_armed_status_continuously)  # Publicar cada 1 segundo
 
-        # Handle shutdown gracefully
+        # Manejador de señal para Ctrl+C
         signal.signal(signal.SIGINT, self.shutdown_hook)
 
-        # Wait for service availability
-        self.wait_for_services()
+         # Espera a que los servicios estén disponibles
+        while self.current_state is None or not self.current_state.connected: #mavros
+            self.get_logger().info('Esperando conexión a MAVROS...')
+            rclpy.spin_once(self)
+            self.get_logger().info("✅ ¡Conectado a MAVROS!")
+       
+        while not self.mode_client.wait_for_service(timeout_sec=1.0):#espera al servicio de modo
+            self.get_logger().info('Esperando servicio /set_mode...')
 
-        # Wait for MAVROS connection
-        while rclpy.ok() and (self.current_state is None or not self.current_state.connected):
-            self.get_logger().info('⏳ Esperando conexión a MAVROS...')
-            rclpy.spin_once(self, timeout_sec=0.5)
+        while not self.arm_client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Esperando servicio /mavros/arming...')
+        
 
-        self.get_logger().info("✅ ¡Conectado a MAVROS!")
-
+        #iniciar aqui para que siempre se este mandando los mensajes 
         self.set_mode()
         self.arm()
 
-    def wait_for_services(self):
-        self.get_logger().info('🔄 Esperando servicios de MAVROS...')
-        while not self.mode_client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().warn('⏳ Servicio /mavros/set_mode no disponible...')
-        while not self.arm_client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().warn('⏳ Servicio /mavros/cmd/arming no disponible...')
 
     def state_cb(self, msg):
         self.current_state = msg
@@ -55,7 +56,7 @@ class arm_drone(Node):
         rclpy.spin_until_future_complete(self, future)
 
         if future.result() and future.result().mode_sent:
-            self.get_logger().info("✅ Modo GUIDED_NO_GPS establecido")
+            self.get_logger().info("✅ Modo GUIDED_NOGPS establecido")
         else:
             self.get_logger().error("❌ Error al establecer el modo")
 
@@ -67,7 +68,7 @@ class arm_drone(Node):
 
         if future.result() and future.result().success:
             self.get_logger().info("✅ ¡Dron armado!")
-            self.publish_armed_status("armed")
+            self.armed_drone_signal = True
         else:
             self.get_logger().error("❌ Fallo al armar")
 
@@ -79,19 +80,16 @@ class arm_drone(Node):
 
         if future.result() and future.result().success:
             self.get_logger().info("✅ ¡Dron desarmado!")
-            self.publish_armed_status("disarmed")
+            self.armed_drone_signal = False
         else:
             self.get_logger().error("❌ Fallo al desarmar")
 
-    def publish_armed_status(self, status: str = None):
-        if status is None:
-            status = "armed" if self.armed_drone_signal else "disarmed"
-        
+    def publish_armed_status(self, status):
         msg = String()
         msg.data = status
         self.publisher.publish(msg)
         self.get_logger().info(f"📤 Publicado estado: {status}")
-        
+    
     def publish_armed_status_continuously(self):
         current_status = "armed" if self.armed_drone_signal else "disarmed"
         if current_status != self.prev_armed_drone_signal:
@@ -116,4 +114,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-

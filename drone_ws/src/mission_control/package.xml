@@ -6,7 +6,7 @@
   <description>TODO: Package description</description>
   <maintainer email="a01645677@tec.mx">manuel</maintainer>
   <license>TODO: License declaration</license>
-
+  <depend>aruco_drone_control</depend>
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>mavros_msgs</depend>

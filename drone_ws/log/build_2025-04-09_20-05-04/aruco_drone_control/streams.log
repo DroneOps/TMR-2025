@@ -1,0 +1,37 @@
+[0.721s] Invoking command in '/home/manuel/drone_ws/src/aruco_drone_control': PYTHONPATH=/home/manuel/drone_ws/build/aruco_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_drone_control build --build-base /home/manuel/drone_ws/build/aruco_drone_control/build install --record /home/manuel/drone_ws/build/aruco_drone_control/install.log --single-version-externally-managed install_data
+[0.827s] /home/manuel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.827s]   warnings.warn(msg)
+[0.891s] running egg_info
+[0.908s] creating ../../build/aruco_drone_control/aruco_drone_control.egg-info
+[0.908s] writing ../../build/aruco_drone_control/aruco_drone_control.egg-info/PKG-INFO
+[0.908s] writing dependency_links to ../../build/aruco_drone_control/aruco_drone_control.egg-info/dependency_links.txt
+[0.909s] writing entry points to ../../build/aruco_drone_control/aruco_drone_control.egg-info/entry_points.txt
+[0.909s] writing requirements to ../../build/aruco_drone_control/aruco_drone_control.egg-info/requires.txt
+[0.909s] writing top-level names to ../../build/aruco_drone_control/aruco_drone_control.egg-info/top_level.txt
+[0.909s] writing manifest file '../../build/aruco_drone_control/aruco_drone_control.egg-info/SOURCES.txt'
+[0.944s] reading manifest file '../../build/aruco_drone_control/aruco_drone_control.egg-info/SOURCES.txt'
+[0.945s] writing manifest file '../../build/aruco_drone_control/aruco_drone_control.egg-info/SOURCES.txt'
+[0.945s] running build
+[0.945s] running build_py
+[0.946s] creating /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control
+[0.946s] copying aruco_drone_control/pid_controller_node.py -> /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control
+[0.946s] copying aruco_drone_control/__init__.py -> /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control
+[0.946s] running install
+[0.950s] running install_lib
+[0.967s] creating /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control
+[0.967s] copying /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control/pid_controller_node.py -> /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control
+[0.967s] copying /home/manuel/drone_ws/build/aruco_drone_control/build/lib/aruco_drone_control/__init__.py -> /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control
+[0.967s] byte-compiling /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control/pid_controller_node.py to pid_controller_node.cpython-310.pyc
+[0.969s] byte-compiling /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control/__init__.py to __init__.cpython-310.pyc
+[0.969s] running install_data
+[0.969s] creating /home/manuel/drone_ws/install/aruco_drone_control/share/ament_index/resource_index/packages
+[0.969s] copying resource/aruco_drone_control -> /home/manuel/drone_ws/install/aruco_drone_control/share/ament_index/resource_index/packages
+[0.970s] copying package.xml -> /home/manuel/drone_ws/install/aruco_drone_control/share/aruco_drone_control
+[0.970s] creating /home/manuel/drone_ws/install/aruco_drone_control/share/aruco_drone_control/launch
+[0.970s] copying launch/mavros.launch.py -> /home/manuel/drone_ws/install/aruco_drone_control/share/aruco_drone_control/launch
+[0.970s] running install_egg_info
+[0.989s] Copying ../../build/aruco_drone_control/aruco_drone_control.egg-info to /home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages/aruco_drone_control-0.0.0-py3.10.egg-info
+[0.990s] running install_scripts
+[1.084s] Installing pid_controller script to /home/manuel/drone_ws/install/aruco_drone_control/lib/aruco_drone_control
+[1.084s] writing list of installed files to '/home/manuel/drone_ws/build/aruco_drone_control/install.log'
+[1.104s] Invoked command in '/home/manuel/drone_ws/src/aruco_drone_control' returned '0': PYTHONPATH=/home/manuel/drone_ws/build/aruco_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuel/drone_ws/install/aruco_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_drone_control build --build-base /home/manuel/drone_ws/build/aruco_drone_control/build install --record /home/manuel/drone_ws/build/aruco_drone_control/install.log --single-version-externally-managed install_data

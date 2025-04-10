@@ -1,3 +1,5 @@
+/home/manuel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
 running egg_info
 creating ../../build/mission_control/mission_control.egg-info
 writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
@@ -14,14 +16,22 @@ creating /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
 copying mission_control/arm_drone.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
 copying mission_control/mission_manager.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
 copying mission_control/__init__.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
+creating /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states
+copying mission_control/states/takeoff.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states
+copying mission_control/states/__init__.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states
 running install
 running install_lib
 creating /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
 copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/arm_drone.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
 copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/mission_manager.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+creating /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states
+copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states/takeoff.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states
+copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states/__init__.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states
 copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/__init__.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
 byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/arm_drone.py to arm_drone.cpython-310.pyc
 byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/mission_manager.py to mission_manager.cpython-310.pyc
+byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states/takeoff.py to takeoff.cpython-310.pyc
+byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states/__init__.py to __init__.cpython-310.pyc
 byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/__init__.py to __init__.cpython-310.pyc
 running install_data
 creating /home/manuel/drone_ws/install/mission_control/share/ament_index/resource_index/packages

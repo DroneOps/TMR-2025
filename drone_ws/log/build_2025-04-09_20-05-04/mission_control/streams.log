@@ -1,0 +1,47 @@
+[0.718s] Invoking command in '/home/manuel/drone_ws/src/mission_control': PYTHONPATH=/home/manuel/drone_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/manuel/drone_ws/build/mission_control/build install --record /home/manuel/drone_ws/build/mission_control/install.log --single-version-externally-managed install_data
+[0.821s] /home/manuel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.821s]   warnings.warn(msg)
+[0.868s] running egg_info
+[0.876s] creating ../../build/mission_control/mission_control.egg-info
+[0.876s] writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
+[0.876s] writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt
+[0.876s] writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt
+[0.876s] writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt
+[0.876s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[0.893s] reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[0.894s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[0.894s] running build
+[0.894s] running build_py
+[0.894s] creating /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
+[0.894s] copying mission_control/arm_drone.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
+[0.894s] copying mission_control/mission_manager.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
+[0.894s] copying mission_control/__init__.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control
+[0.895s] creating /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states
+[0.895s] copying mission_control/states/takeoff.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states
+[0.895s] copying mission_control/states/__init__.py -> /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states
+[0.895s] running install
+[0.897s] running install_lib
+[0.906s] creating /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+[0.906s] copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/arm_drone.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+[0.906s] copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/mission_manager.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+[0.906s] creating /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states
+[0.906s] copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states/takeoff.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states
+[0.906s] copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/states/__init__.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states
+[0.907s] copying /home/manuel/drone_ws/build/mission_control/build/lib/mission_control/__init__.py -> /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+[0.907s] byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/arm_drone.py to arm_drone.cpython-310.pyc
+[0.908s] byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/mission_manager.py to mission_manager.cpython-310.pyc
+[0.908s] byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states/takeoff.py to takeoff.cpython-310.pyc
+[0.908s] byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/states/__init__.py to __init__.cpython-310.pyc
+[0.909s] byte-compiling /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control/__init__.py to __init__.cpython-310.pyc
+[0.909s] running install_data
+[0.909s] creating /home/manuel/drone_ws/install/mission_control/share/ament_index/resource_index/packages
+[0.909s] copying resource/mission_control -> /home/manuel/drone_ws/install/mission_control/share/ament_index/resource_index/packages
+[0.909s] copying package.xml -> /home/manuel/drone_ws/install/mission_control/share/mission_control
+[0.909s] running install_egg_info
+[0.918s] Copying ../../build/mission_control/mission_control.egg-info to /home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages/mission_control-0.0.0-py3.10.egg-info
+[0.918s] running install_scripts
+[0.987s] Installing arm_drone script to /home/manuel/drone_ws/install/mission_control/lib/mission_control
+[0.987s] Installing mission_manager script to /home/manuel/drone_ws/install/mission_control/lib/mission_control
+[0.987s] writing list of installed files to '/home/manuel/drone_ws/build/mission_control/install.log'
+[1.007s] Invoked command in '/home/manuel/drone_ws/src/mission_control' returned '0': PYTHONPATH=/home/manuel/drone_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuel/drone_ws/install/mission_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/manuel/drone_ws/build/mission_control/build install --record /home/manuel/drone_ws/build/mission_control/install.log --single-version-externally-managed install_data
