@@ -10,9 +10,9 @@ class arm_drone(Node):
     def __init__(self):
         super().__init__('arm_drone')
 
-        self.mode_client = self.create_client(SetMode, '/set_mode')
-        self.arm_client = self.create_client(CommandBool, '/mavros/arming')
-        self.state_sub = self.create_subscription(State, '/state', self.state_cb, 10)
+        self.mode_client = self.create_client(SetMode, 'mavros/set_mode')
+        self.arm_client = self.create_client(CommandBool, '/mavros/cmd/arming')
+        self.state_sub = self.create_subscription(State, 'mavros/state', self.state_cb, 10)
         self.current_state = None
 
         #para manejo de si se detecat un cambio 

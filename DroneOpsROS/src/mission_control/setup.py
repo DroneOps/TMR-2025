@@ -24,6 +24,8 @@ setup(
         # Incluir archivos de configuración si los tienes
         (os.path.join('share', package_name, 'config'), 
          glob('config/*.yaml') + glob('config/*.yml')),
+        # Instala el archivo de servicio
+        ('share/' + package_name + '/srv', glob('mission_control/srv/*.srv')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -36,6 +38,7 @@ setup(
         'console_scripts': [
             'arm_drone = mission_control.arm_drone:main',
             'mission_manager = mission_control.mission_manager:main',
+            'takeoff = mission_control.takeoff:main',
         ],
     },
 )

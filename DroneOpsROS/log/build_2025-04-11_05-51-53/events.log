@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (control_system) JobQueued: {'identifier': 'control_system', 'dependencies': OrderedDict()}
+[0.000121] (mission_control) JobQueued: {'identifier': 'mission_control', 'dependencies': OrderedDict()}
+[0.000138] (vision_system) JobQueued: {'identifier': 'vision_system', 'dependencies': OrderedDict()}
+[0.000152] (control_system) JobStarted: {'identifier': 'control_system'}
+[0.010392] (mission_control) JobStarted: {'identifier': 'mission_control'}
+[0.013834] (vision_system) JobStarted: {'identifier': 'vision_system'}
+[0.099391] (-) TimerEvent: {}
+[0.199658] (-) TimerEvent: {}
+[0.299925] (-) TimerEvent: {}
+[0.400135] (-) TimerEvent: {}
+[0.500418] (-) TimerEvent: {}
+[0.600643] (-) TimerEvent: {}
+[0.700911] (-) TimerEvent: {}
+[0.801184] (-) TimerEvent: {}
+[0.871478] (mission_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mission_control', 'build', '--build-base', '/root/DroneOpsROS/build/mission_control/build', 'install', '--record', '/root/DroneOpsROS/build/mission_control/install.log', '--install-scripts', '$base/lib/mission_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/DroneOpsROS/src/mission_control', 'env': {'HOSTNAME': 'Laptop-Mojarras', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/DroneOpsROS/build/mission_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/DroneOpsROS/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.875077] (vision_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vision_system', 'build', '--build-base', '/root/DroneOpsROS/build/vision_system/build', 'install', '--record', '/root/DroneOpsROS/build/vision_system/install.log', '--install-scripts', '$base/lib/vision_system', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/DroneOpsROS/src/vision_system', 'env': {'HOSTNAME': 'Laptop-Mojarras', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/DroneOpsROS/build/vision_system', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/DroneOpsROS/build/vision_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.876530] (control_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/control_system', 'build', '--build-base', '/root/DroneOpsROS/build/control_system/build', 'install', '--record', '/root/DroneOpsROS/build/control_system/install.log', '--install-scripts', '$base/lib/control_system', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/DroneOpsROS/src/control_system', 'env': {'HOSTNAME': 'Laptop-Mojarras', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/DroneOpsROS/build/control_system', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/DroneOpsROS/build/control_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/DroneOpsROS/install/control_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.901318] (-) TimerEvent: {}
+[1.001587] (-) TimerEvent: {}
+[1.043948] (vision_system) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.044106] (vision_system) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.046022] (mission_control) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.046137] (mission_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.048845] (control_system) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.049073] (control_system) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.052633] (vision_system) StdoutLine: {'line': b'running egg_info\n'}
+[1.053446] (vision_system) StdoutLine: {'line': b'writing ../../build/vision_system/vision_system.egg-info/PKG-INFO\n'}
+[1.054094] (vision_system) StdoutLine: {'line': b'writing dependency_links to ../../build/vision_system/vision_system.egg-info/dependency_links.txt\n'}
+[1.054288] (vision_system) StdoutLine: {'line': b'writing entry points to ../../build/vision_system/vision_system.egg-info/entry_points.txt\n'}
+[1.054487] (vision_system) StdoutLine: {'line': b'writing requirements to ../../build/vision_system/vision_system.egg-info/requires.txt\n'}
+[1.054611] (vision_system) StdoutLine: {'line': b'writing top-level names to ../../build/vision_system/vision_system.egg-info/top_level.txt\n'}
+[1.055034] (mission_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.055773] (mission_control) StdoutLine: {'line': b'writing ../../build/mission_control/mission_control.egg-info/PKG-INFO\n'}
+[1.056817] (mission_control) StdoutLine: {'line': b'writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt\n'}
+[1.056987] (mission_control) StdoutLine: {'line': b'writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt\n'}
+[1.057119] (mission_control) StdoutLine: {'line': b'writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt\n'}
+[1.057252] (mission_control) StdoutLine: {'line': b'writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt\n'}
+[1.057990] (vision_system) StdoutLine: {'line': b"reading manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'\n"}
+[1.058266] (control_system) StdoutLine: {'line': b'running egg_info\n'}
+[1.058948] (vision_system) StdoutLine: {'line': b"writing manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'\n"}
+[1.059129] (vision_system) StdoutLine: {'line': b'running build\n'}
+[1.059232] (vision_system) StdoutLine: {'line': b'running build_py\n'}
+[1.059359] (control_system) StdoutLine: {'line': b'writing ../../build/control_system/control_system.egg-info/PKG-INFO\n'}
+[1.059513] (mission_control) StdoutLine: {'line': b"reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'\n"}
+[1.059656] (vision_system) StdoutLine: {'line': b'running install\n'}
+[1.059813] (control_system) StdoutLine: {'line': b'writing dependency_links to ../../build/control_system/control_system.egg-info/dependency_links.txt\n'}
+[1.059975] (control_system) StdoutLine: {'line': b'writing entry points to ../../build/control_system/control_system.egg-info/entry_points.txt\n'}
+[1.060127] (vision_system) StdoutLine: {'line': b'running install_lib\n'}
+[1.060310] (control_system) StdoutLine: {'line': b'writing requirements to ../../build/control_system/control_system.egg-info/requires.txt\n'}
+[1.060423] (control_system) StdoutLine: {'line': b'writing top-level names to ../../build/control_system/control_system.egg-info/top_level.txt\n'}
+[1.061165] (mission_control) StdoutLine: {'line': b"writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'\n"}
+[1.061284] (mission_control) StdoutLine: {'line': b'running build\n'}
+[1.061389] (mission_control) StdoutLine: {'line': b'running build_py\n'}
+[1.061809] (mission_control) StdoutLine: {'line': b'running install\n'}
+[1.061963] (vision_system) StdoutLine: {'line': b'creating /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system\n'}
+[1.062127] (vision_system) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/vision_system/build/lib/vision_system/__init__.py -> /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system\n'}
+[1.062346] (vision_system) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/vision_system/build/lib/vision_system/camera_node.py -> /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system\n'}
+[1.062481] (mission_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.062574] (vision_system) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/vision_system/build/lib/vision_system/aruco_detector.py -> /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system\n'}
+[1.062755] (control_system) StdoutLine: {'line': b"reading manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'\n"}
+[1.063043] (mission_control) StdoutLine: {'line': b'creating /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control\n'}
+[1.063193] (mission_control) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/mission_control/build/lib/mission_control/__init__.py -> /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control\n'}
+[1.063345] (mission_control) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/mission_control/build/lib/mission_control/mission_manager.py -> /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control\n'}
+[1.063510] (vision_system) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/__init__.py to __init__.cpython-310.pyc\n'}
+[1.063648] (mission_control) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/mission_control/build/lib/mission_control/takeoff.py -> /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control\n'}
+[1.063754] (vision_system) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/camera_node.py to camera_node.cpython-310.pyc\n'}
+[1.063898] (mission_control) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/mission_control/build/lib/mission_control/arm_drone.py -> /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control\n'}
+[1.064051] (control_system) StdoutLine: {'line': b"writing manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'\n"}
+[1.064216] (control_system) StdoutLine: {'line': b'running build\n'}
+[1.064347] (control_system) StdoutLine: {'line': b'running build_py\n'}
+[1.064449] (vision_system) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/aruco_detector.py to aruco_detector.cpython-310.pyc\n'}
+[1.064619] (control_system) StdoutLine: {'line': b'running install\n'}
+[1.064728] (mission_control) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control/__init__.py to __init__.cpython-310.pyc\n'}
+[1.064905] (mission_control) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control/mission_manager.py to mission_manager.cpython-310.pyc\n'}
+[1.065018] (control_system) StdoutLine: {'line': b'running install_lib\n'}
+[1.065543] (mission_control) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control/takeoff.py to takeoff.cpython-310.pyc\n'}
+[1.065813] (vision_system) StdoutLine: {'line': b'running install_data\n'}
+[1.066023] (vision_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.066182] (control_system) StdoutLine: {'line': b'creating /root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system\n'}
+[1.066377] (mission_control) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control/arm_drone.py to arm_drone.cpython-310.pyc\n'}
+[1.066520] (control_system) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/control_system/build/lib/control_system/__init__.py -> /root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system\n'}
+[1.066621] (control_system) StdoutLine: {'line': b'copying /root/DroneOpsROS/build/control_system/build/lib/control_system/nodo_control.py -> /root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system\n'}
+[1.067062] (control_system) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system/__init__.py to __init__.cpython-310.pyc\n'}
+[1.067223] (mission_control) StdoutLine: {'line': b'running install_data\n'}
+[1.067401] (control_system) StdoutLine: {'line': b'byte-compiling /root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system/nodo_control.py to nodo_control.cpython-310.pyc\n'}
+[1.067505] (mission_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.068052] (control_system) StdoutLine: {'line': b'running install_data\n'}
+[1.068199] (control_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.068340] (vision_system) StdoutLine: {'line': b'Copying ../../build/vision_system/vision_system.egg-info to /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system-0.0.0-py3.10.egg-info\n'}
+[1.069303] (vision_system) StdoutLine: {'line': b'running install_scripts\n'}
+[1.069590] (mission_control) StdoutLine: {'line': b'Copying ../../build/mission_control/mission_control.egg-info to /root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages/mission_control-0.0.0-py3.10.egg-info\n'}
+[1.069826] (control_system) StdoutLine: {'line': b'Copying ../../build/control_system/control_system.egg-info to /root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system-0.0.0-py3.10.egg-info\n'}
+[1.070615] (mission_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.070787] (control_system) StdoutLine: {'line': b'running install_scripts\n'}
+[1.089638] (vision_system) StdoutLine: {'line': b'Installing aruco_detector script to /root/DroneOpsROS/install/vision_system/lib/vision_system\n'}
+[1.089926] (vision_system) StdoutLine: {'line': b'Installing camera_node script to /root/DroneOpsROS/install/vision_system/lib/vision_system\n'}
+[1.090206] (vision_system) StdoutLine: {'line': b"writing list of installed files to '/root/DroneOpsROS/build/vision_system/install.log'\n"}
+[1.090760] (control_system) StdoutLine: {'line': b'Installing nodo_control script to /root/DroneOpsROS/install/control_system/lib/control_system\n'}
+[1.090995] (mission_control) StdoutLine: {'line': b'Installing arm_drone script to /root/DroneOpsROS/install/mission_control/lib/mission_control\n'}
+[1.091170] (control_system) StdoutLine: {'line': b"writing list of installed files to '/root/DroneOpsROS/build/control_system/install.log'\n"}
+[1.091338] (mission_control) StdoutLine: {'line': b'Installing mission_manager script to /root/DroneOpsROS/install/mission_control/lib/mission_control\n'}
+[1.091430] (mission_control) StdoutLine: {'line': b'Installing takeoff script to /root/DroneOpsROS/install/mission_control/lib/mission_control\n'}
+[1.091647] (mission_control) StdoutLine: {'line': b"writing list of installed files to '/root/DroneOpsROS/build/mission_control/install.log'\n"}
+[1.101737] (-) TimerEvent: {}
+[1.134953] (mission_control) CommandEnded: {'returncode': 0}
+[1.147091] (mission_control) JobEnded: {'identifier': 'mission_control', 'rc': 0}
+[1.147423] (vision_system) CommandEnded: {'returncode': 0}
+[1.157317] (vision_system) JobEnded: {'identifier': 'vision_system', 'rc': 0}
+[1.157633] (control_system) CommandEnded: {'returncode': 0}
+[1.165052] (control_system) JobEnded: {'identifier': 'control_system', 'rc': 0}
+[1.165720] (-) EventReactorShutdown: {}

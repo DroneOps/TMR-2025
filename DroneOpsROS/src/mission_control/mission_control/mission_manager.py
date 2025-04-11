@@ -6,9 +6,7 @@ from std_msgs.msg import Float64
 from rclpy.qos import QoSProfile
 from rclpy.qos import QoSDurabilityPolicy, QoSReliabilityPolicy
 from rclpy.qos import QoSHistoryPolicy
-from states.takeoff import Takeoff
-
-
+from mission_control.srv import Altitud
 
 
 class mission_manager(Node): 
@@ -19,6 +17,9 @@ class mission_manager(Node):
         self.armado = self.create_subscription(String, '/armed_drone',self.armed_callback,10)
         self.create_timer(1.0, self.control_loop)  # Loop de control de misión, se ejecuta cada segundo
         
+        #clientes a los servicios
+        self.cli_takeoff = self.create_client(Altitud, 'takeoff_drone' )
+
         # Publicador para manejar el cambio de tareas
         self.task_publisher = self.create_publisher(String, '/current_task', 10)
         
@@ -48,13 +49,28 @@ class mission_manager(Node):
             self.state = "takeoff"
             self.publish_task("takeoff")
         
-        elif self.state == "takeoff":
-            Takeoff()
-            if  Takeoff.get_current_altitude() >= Takeoff.target_altitude:
-                self.state = "takeoff_complete" 
-                self.get_logger().info("¡Despegue completado! Alcanzada la altitud deseada.")
-                self.publish_task("takeoff_complete")
 
+        ##ESTADO TAKEOFF##
+        elif self.state == "takeoff":
+            while not self.cli.wait_for_service(timeout_sec=1.0):
+                self.get_logger().info('Esperando Despegue...')
+
+            #mandar la altitud deseada
+            self.req_takeoff = Altitud.Request()
+            self.req_takeoff.altitud = 1.5 #altitud
+
+            # Llama al servicio de forma asíncrona y espera su respuesta
+            future = self.cli.call_async(self.req_takeoff)
+            rclpy.spin_until_future_complete(self, future)
+
+            if future.result() is not None:
+                self.get_logger().info(f"Despegue iniciado, altitud recibida: {future.result().response_altitud} m")
+                self.state = "takeoff_complete"
+                self.publish_task("takeoff_complete")
+            else:
+                self.get_logger().error("Error al llamar al servicio de despegue")
+
+        ##ESTADO TAKEOFF_COMPLETE##
         elif self.state == "takeoff_complete":
 
             self.state = "aruco_nav"
