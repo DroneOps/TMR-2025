@@ -1,0 +1,170 @@
+[0.226s] Invoking command in '/root/DroneOpsROS/build/mission_control': CMAKE_PREFIX_PATH=/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble /usr/bin/cmake --build /root/DroneOpsROS/build/mission_control -- -j8 -l8
+[0.283s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_generator_c[0m
+[0.306s] [  9%] Built target mission_control__rosidl_generator_c
+[0.311s] [ 12%] Built target mission_control__cpp
+[0.319s] [ 12%] Built target ament_cmake_python_copy_mission_control
+[0.329s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_introspection_c[0m
+[0.329s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_c[0m
+[0.329s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_fastrtps_c[0m
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_cpp[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_introspection_cpp[0m
+[0.347s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_fastrtps_cpp[0m
+[0.352s] [ 22%] Built target mission_control__rosidl_typesupport_c
+[0.363s] [ 32%] Built target mission_control__rosidl_typesupport_introspection_c
+[0.363s] [ 41%] Built target mission_control__rosidl_typesupport_cpp
+[0.368s] [ 51%] Built target mission_control__rosidl_typesupport_fastrtps_c
+[0.371s] [ 67%] Built target mission_control__rosidl_typesupport_introspection_cpp
+[0.371s] [ 70%] Built target mission_control__rosidl_typesupport_fastrtps_cpp
+[0.402s] [ 70%] Built target mission_control
+[0.432s] [ 74%] Built target mission_control__py
+[0.447s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_generator_py[0m
+[0.465s] [ 80%] Built target mission_control__rosidl_generator_py
+[0.486s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_c__pyext[0m
+[0.486s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_introspection_c__pyext[0m
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.514s] [ 87%] Built target mission_control__rosidl_typesupport_c__pyext
+[0.515s] [ 93%] Built target mission_control__rosidl_typesupport_introspection_c__pyext
+[0.516s] [100%] Built target mission_control__rosidl_typesupport_fastrtps_c__pyext
+[0.681s] running egg_info
+[0.682s] writing mission_control.egg-info/PKG-INFO
+[0.682s] writing dependency_links to mission_control.egg-info/dependency_links.txt
+[0.682s] writing top-level names to mission_control.egg-info/top_level.txt
+[0.685s] reading manifest file 'mission_control.egg-info/SOURCES.txt'
+[0.686s] writing manifest file 'mission_control.egg-info/SOURCES.txt'
+[0.728s] [100%] Built target ament_cmake_python_build_mission_control_egg
+[0.745s] Invoked command in '/root/DroneOpsROS/build/mission_control' returned '0': CMAKE_PREFIX_PATH=/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble /usr/bin/cmake --build /root/DroneOpsROS/build/mission_control -- -j8 -l8
+[0.759s] Invoking command in '/root/DroneOpsROS/build/mission_control': CMAKE_PREFIX_PATH=/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble /usr/bin/cmake --install /root/DroneOpsROS/build/mission_control
+[0.770s] -- Install configuration: ""
+[0.771s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/rosidl_interfaces/mission_control
+[0.771s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[0.771s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[0.771s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_generator_c__visibility_control.h
+[0.771s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[0.772s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/altitud.h
+[0.772s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[0.772s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__functions.h
+[0.772s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__struct.h
+[0.773s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.h
+[0.773s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__functions.c
+[0.773s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/library_path.sh
+[0.773s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/library_path.dsv
+[0.774s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_c.so
+[0.774s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[0.774s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[0.774s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.774s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[0.775s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[0.775s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_fastrtps_c.h
+[0.775s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_c.so
+[0.775s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[0.776s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[0.776s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.776s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[0.776s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[0.777s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.c
+[0.777s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_introspection_c.h
+[0.777s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_c.so
+[0.777s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_c.so
+[0.777s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[0.778s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[0.778s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.778s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[0.778s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[0.778s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__builder.hpp
+[0.779s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__traits.hpp
+[0.779s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__struct.hpp
+[0.779s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.hpp
+[0.779s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/altitud.hpp
+[0.779s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[0.780s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[0.780s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.780s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[0.780s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[0.780s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_fastrtps_cpp.hpp
+[0.780s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/dds_fastrtps
+[0.781s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_cpp.so
+[0.781s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[0.781s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[0.781s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[0.781s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.cpp
+[0.781s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_introspection_cpp.hpp
+[0.782s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_cpp.so
+[0.782s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_cpp.so
+[0.782s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/pythonpath.sh
+[0.782s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/pythonpath.dsv
+[0.782s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info
+[0.782s] -- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.783s] -- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/PKG-INFO
+[0.783s] -- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/top_level.txt
+[0.783s] -- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.783s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control
+[0.783s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/__init__.py
+[0.783s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_introspection_c.c
+[0.783s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_c.c
+[0.784s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.784s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.784s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.784s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv
+[0.784s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/__init__.py
+[0.784s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/_altitud.py
+[0.785s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/_altitud_s.c
+[0.785s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.785s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/libmission_control__rosidl_generator_py.so
+[0.828s] Listing '/root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control'...
+[0.828s] Listing '/root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv'...
+[0.835s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.835s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.835s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.836s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_py.so
+[0.836s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud.idl
+[0.837s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud.srv
+[0.837s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud_Request.msg
+[0.837s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud_Response.msg
+[0.837s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control
+[0.838s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/__init__.py
+[0.838s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/mission_manager.py
+[0.838s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/takeoff.py
+[0.838s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/arm_drone.py
+[0.839s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/takeoff
+[0.839s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/arm_drone
+[0.839s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/mission_manager
+[0.839s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/package_run_dependencies/mission_control
+[0.839s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/parent_prefix_path/mission_control
+[0.840s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/ament_prefix_path.sh
+[0.840s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/ament_prefix_path.dsv
+[0.840s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/path.sh
+[0.840s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/path.dsv
+[0.841s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.bash
+[0.841s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.sh
+[0.841s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.zsh
+[0.841s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.dsv
+[0.841s] -- Installing: /root/DroneOpsROS/install/mission_control/share/mission_control/package.dsv
+[0.841s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/packages/mission_control
+[0.842s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cExport.cmake
+[0.842s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cExport-noconfig.cmake
+[0.842s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cExport.cmake
+[0.842s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.842s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cExport.cmake
+[0.842s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.843s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cExport.cmake
+[0.843s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cExport-noconfig.cmake
+[0.843s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cppExport.cmake
+[0.844s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.844s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.845s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cppExport.cmake
+[0.845s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.846s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cppExport.cmake
+[0.846s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cppExport-noconfig.cmake
+[0.846s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_pyExport.cmake
+[0.847s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_pyExport-noconfig.cmake
+[0.847s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake-extras.cmake
+[0.847s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.848s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.848s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_targets-extras.cmake
+[0.848s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.849s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.849s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.849s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_controlConfig.cmake
+[0.849s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_controlConfig-version.cmake
+[0.850s] -- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/package.xml
+[0.850s] Invoked command in '/root/DroneOpsROS/build/mission_control' returned '0': CMAKE_PREFIX_PATH=/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble /usr/bin/cmake --install /root/DroneOpsROS/build/mission_control

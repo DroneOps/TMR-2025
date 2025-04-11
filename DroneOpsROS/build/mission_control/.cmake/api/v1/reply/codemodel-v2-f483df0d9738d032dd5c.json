@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b47ac487fb613cd5d179.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mission_control__py",
+					"jsonFile" : "directory-mission_control__py-f40ae5ed36ff805bcd76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/DroneOpsROS/build/mission_control/mission_control__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mission_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mission_control_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mission_control_egg-aa70ff97173b5ee21d76.json",
+					"name" : "ament_cmake_python_build_mission_control_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mission_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mission_control-0b640d6b9aab4558019b.json",
+					"name" : "ament_cmake_python_copy_mission_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control-89615c8de85d78b082af.json",
+					"name" : "mission_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__cpp-3d34a7b3429c9daf3927.json",
+					"name" : "mission_control__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mission_control__py::@7e28866593886841797b",
+					"jsonFile" : "target-mission_control__py-f4cb624b1aba68244b2e.json",
+					"name" : "mission_control__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_generator_c-f388593a9a9ffe04c3d4.json",
+					"name" : "mission_control__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_generator_py-e6bd620e14625d395657.json",
+					"name" : "mission_control__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_c-e03b3bdb57f361b327dd.json",
+					"name" : "mission_control__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_c__pyext-e80147a389a3862558ae.json",
+					"name" : "mission_control__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_cpp-3224f82044d4bb8455e4.json",
+					"name" : "mission_control__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_fastrtps_c-3aa6d0181e946640f45f.json",
+					"name" : "mission_control__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_fastrtps_c__pyext-ccee22a449a92506b21a.json",
+					"name" : "mission_control__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_fastrtps_cpp-eefcc7d5718f9aed5b8a.json",
+					"name" : "mission_control__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_introspection_c-2e27608dab91fc947340.json",
+					"name" : "mission_control__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_introspection_c__pyext-8abd39d88465cb78d2ff.json",
+					"name" : "mission_control__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control__rosidl_typesupport_introspection_cpp-b19a8344a2a27bea5433.json",
+					"name" : "mission_control__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control_uninstall-2141a9d271193a4be93c.json",
+					"name" : "mission_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c6c84c7614f5ae163803.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/DroneOpsROS/build/mission_control",
+		"source" : "/root/DroneOpsROS/src/mission_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

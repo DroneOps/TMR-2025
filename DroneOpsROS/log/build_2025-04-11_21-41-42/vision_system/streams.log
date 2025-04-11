@@ -1,0 +1,43 @@
+[0.752s] Invoking command in '/root/DroneOpsROS/src/vision_system': PYTHONPATH=/root/DroneOpsROS/build/vision_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_system build --build-base /root/DroneOpsROS/build/vision_system/build install --record /root/DroneOpsROS/build/vision_system/install.log --install-scripts $base/lib/vision_system --single-version-externally-managed install_data
+[0.951s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.951s]   warnings.warn(
+[0.959s] running egg_info
+[0.960s] creating ../../build/vision_system/vision_system.egg-info
+[0.960s] writing ../../build/vision_system/vision_system.egg-info/PKG-INFO
+[0.960s] writing dependency_links to ../../build/vision_system/vision_system.egg-info/dependency_links.txt
+[0.960s] writing entry points to ../../build/vision_system/vision_system.egg-info/entry_points.txt
+[0.960s] writing requirements to ../../build/vision_system/vision_system.egg-info/requires.txt
+[0.961s] writing top-level names to ../../build/vision_system/vision_system.egg-info/top_level.txt
+[0.961s] writing manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'
+[0.963s] reading manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'
+[0.964s] writing manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'
+[0.964s] running build
+[0.964s] running build_py
+[0.964s] creating /root/DroneOpsROS/build/vision_system/build
+[0.964s] creating /root/DroneOpsROS/build/vision_system/build/lib
+[0.964s] creating /root/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.964s] copying vision_system/__init__.py -> /root/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.964s] copying vision_system/camera_node.py -> /root/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.965s] copying vision_system/aruco_detector.py -> /root/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.965s] running install
+[0.965s] running install_lib
+[0.966s] creating /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.966s] copying /root/DroneOpsROS/build/vision_system/build/lib/vision_system/__init__.py -> /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.966s] copying /root/DroneOpsROS/build/vision_system/build/lib/vision_system/camera_node.py -> /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.966s] copying /root/DroneOpsROS/build/vision_system/build/lib/vision_system/aruco_detector.py -> /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.967s] byte-compiling /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/__init__.py to __init__.cpython-310.pyc
+[0.967s] byte-compiling /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/camera_node.py to camera_node.cpython-310.pyc
+[0.968s] byte-compiling /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/aruco_detector.py to aruco_detector.cpython-310.pyc
+[0.969s] running install_data
+[0.969s] creating /root/DroneOpsROS/install/vision_system/share/ament_index
+[0.970s] creating /root/DroneOpsROS/install/vision_system/share/ament_index/resource_index
+[0.970s] creating /root/DroneOpsROS/install/vision_system/share/ament_index/resource_index/packages
+[0.970s] copying resource/vision_system -> /root/DroneOpsROS/install/vision_system/share/ament_index/resource_index/packages
+[0.970s] copying package.xml -> /root/DroneOpsROS/install/vision_system/share/vision_system
+[0.970s] running install_egg_info
+[0.972s] Copying ../../build/vision_system/vision_system.egg-info to /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system-0.0.0-py3.10.egg-info
+[0.973s] running install_scripts
+[1.000s] Installing aruco_detector script to /root/DroneOpsROS/install/vision_system/lib/vision_system
+[1.000s] Installing camera_node script to /root/DroneOpsROS/install/vision_system/lib/vision_system
+[1.000s] writing list of installed files to '/root/DroneOpsROS/build/vision_system/install.log'
+[1.035s] Invoked command in '/root/DroneOpsROS/src/vision_system' returned '0': PYTHONPATH=/root/DroneOpsROS/build/vision_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_system build --build-base /root/DroneOpsROS/build/vision_system/build install --record /root/DroneOpsROS/build/vision_system/install.log --install-scripts $base/lib/vision_system --single-version-externally-managed install_data

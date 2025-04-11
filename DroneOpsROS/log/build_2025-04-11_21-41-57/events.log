@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (control_system) JobQueued: {'identifier': 'control_system', 'dependencies': OrderedDict()}
+[0.000155] (mission_control) JobQueued: {'identifier': 'mission_control', 'dependencies': OrderedDict()}
+[0.000172] (vision_system) JobQueued: {'identifier': 'vision_system', 'dependencies': OrderedDict()}
+[0.000188] (control_system) JobStarted: {'identifier': 'control_system'}
+[0.011693] (mission_control) JobStarted: {'identifier': 'mission_control'}
+[0.017772] (vision_system) JobStarted: {'identifier': 'vision_system'}
+[0.099408] (-) TimerEvent: {}
+[0.199686] (-) TimerEvent: {}
+[0.234787] (mission_control) JobProgress: {'identifier': 'mission_control', 'progress': 'cmake'}
+[0.235643] (mission_control) JobProgress: {'identifier': 'mission_control', 'progress': 'build'}
+[0.236781] (mission_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/DroneOpsROS/build/mission_control', '--', '-j8', '-l8'], 'cwd': '/root/DroneOpsROS/build/mission_control', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,802,0'), ('HOSTNAME', 'Laptop-Mojarras'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/DroneOpsROS/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/DroneOpsROS/build/mission_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:/root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages:/root/DroneOpsROS/install/control_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble')]), 'shell': False}
+[0.294810] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_generator_c\x1b[0m\n'}
+[0.299791] (-) TimerEvent: {}
+[0.317914] (mission_control) StdoutLine: {'line': b'[  9%] Built target mission_control__rosidl_generator_c\n'}
+[0.322963] (mission_control) StdoutLine: {'line': b'[ 12%] Built target mission_control__cpp\n'}
+[0.330846] (mission_control) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_mission_control\n'}
+[0.340336] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.340632] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_c\x1b[0m\n'}
+[0.340833] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.344274] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.351351] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.358325] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.363556] (mission_control) StdoutLine: {'line': b'[ 22%] Built target mission_control__rosidl_typesupport_c\n'}
+[0.374603] (mission_control) StdoutLine: {'line': b'[ 32%] Built target mission_control__rosidl_typesupport_introspection_c\n'}
+[0.374858] (mission_control) StdoutLine: {'line': b'[ 41%] Built target mission_control__rosidl_typesupport_cpp\n'}
+[0.379643] (mission_control) StdoutLine: {'line': b'[ 51%] Built target mission_control__rosidl_typesupport_fastrtps_c\n'}
+[0.382594] (mission_control) StdoutLine: {'line': b'[ 67%] Built target mission_control__rosidl_typesupport_introspection_cpp\n'}
+[0.382773] (mission_control) StdoutLine: {'line': b'[ 70%] Built target mission_control__rosidl_typesupport_fastrtps_cpp\n'}
+[0.399903] (-) TimerEvent: {}
+[0.414010] (mission_control) StdoutLine: {'line': b'[ 70%] Built target mission_control\n'}
+[0.443918] (mission_control) StdoutLine: {'line': b'[ 74%] Built target mission_control__py\n'}
+[0.458466] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_generator_py\x1b[0m\n'}
+[0.476782] (mission_control) StdoutLine: {'line': b'[ 80%] Built target mission_control__rosidl_generator_py\n'}
+[0.497661] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.498009] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.498188] (mission_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mission_control__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.499991] (-) TimerEvent: {}
+[0.526005] (mission_control) StdoutLine: {'line': b'[ 87%] Built target mission_control__rosidl_typesupport_c__pyext\n'}
+[0.526370] (mission_control) StdoutLine: {'line': b'[ 93%] Built target mission_control__rosidl_typesupport_introspection_c__pyext\n'}
+[0.527978] (mission_control) StdoutLine: {'line': b'[100%] Built target mission_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.600123] (-) TimerEvent: {}
+[0.692158] (mission_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.693149] (mission_control) StdoutLine: {'line': b'writing mission_control.egg-info/PKG-INFO\n'}
+[0.693523] (mission_control) StdoutLine: {'line': b'writing dependency_links to mission_control.egg-info/dependency_links.txt\n'}
+[0.693884] (mission_control) StdoutLine: {'line': b'writing top-level names to mission_control.egg-info/top_level.txt\n'}
+[0.696670] (mission_control) StdoutLine: {'line': b"reading manifest file 'mission_control.egg-info/SOURCES.txt'\n"}
+[0.697750] (mission_control) StdoutLine: {'line': b"writing manifest file 'mission_control.egg-info/SOURCES.txt'\n"}
+[0.700228] (-) TimerEvent: {}
+[0.739346] (mission_control) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_mission_control_egg\n'}
+[0.756062] (mission_control) CommandEnded: {'returncode': 0}
+[0.756994] (mission_control) JobProgress: {'identifier': 'mission_control', 'progress': 'install'}
+[0.769639] (mission_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/DroneOpsROS/build/mission_control'], 'cwd': '/root/DroneOpsROS/build/mission_control', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,802,0'), ('HOSTNAME', 'Laptop-Mojarras'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/DroneOpsROS/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/DroneOpsROS/build/mission_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:/root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages:/root/DroneOpsROS/install/control_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble')]), 'shell': False}
+[0.781691] (mission_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.782195] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/rosidl_interfaces/mission_control\n'}
+[0.782492] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control\n'}
+[0.782720] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg\n'}
+[0.782908] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.783095] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv\n'}
+[0.783291] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/altitud.h\n'}
+[0.783586] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail\n'}
+[0.783770] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__functions.h\n'}
+[0.783957] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__struct.h\n'}
+[0.784138] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.h\n'}
+[0.784434] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__functions.c\n'}
+[0.784674] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/library_path.sh\n'}
+[0.784848] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/library_path.dsv\n'}
+[0.785034] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_c.so\n'}
+[0.785331] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control\n'}
+[0.785733] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg\n'}
+[0.785919] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.786106] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv\n'}
+[0.786307] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail\n'}
+[0.786712] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_fastrtps_c.h\n'}
+[0.786894] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_c.so\n'}
+[0.787080] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control\n'}
+[0.787260] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg\n'}
+[0.787521] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.787702] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv\n'}
+[0.787885] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail\n'}
+[0.788145] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.c\n'}
+[0.788404] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_introspection_c.h\n'}
+[0.788626] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_c.so\n'}
+[0.788812] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_c.so\n'}
+[0.788996] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control\n'}
+[0.789173] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg\n'}
+[0.789383] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.789634] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv\n'}
+[0.789819] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail\n'}
+[0.790001] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__builder.hpp\n'}
+[0.790312] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__traits.hpp\n'}
+[0.790506] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__struct.hpp\n'}
+[0.790680] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.hpp\n'}
+[0.790850] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/altitud.hpp\n'}
+[0.791020] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control\n'}
+[0.791188] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg\n'}
+[0.791374] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.791555] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv\n'}
+[0.791727] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail\n'}
+[0.791897] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.792066] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/dds_fastrtps\n'}
+[0.792228] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.792455] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control\n'}
+[0.792607] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv\n'}
+[0.792752] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail\n'}
+[0.792889] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.cpp\n'}
+[0.793026] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.793163] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_cpp.so\n'}
+[0.793311] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_cpp.so\n'}
+[0.793491] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/pythonpath.sh\n'}
+[0.793643] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/pythonpath.dsv\n'}
+[0.793794] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info\n'}
+[0.793977] (mission_control) StdoutLine: {'line': b'-- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.794166] (mission_control) StdoutLine: {'line': b'-- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.794335] (mission_control) StdoutLine: {'line': b'-- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.794487] (mission_control) StdoutLine: {'line': b'-- Installing: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.794628] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control\n'}
+[0.794768] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/__init__.py\n'}
+[0.794919] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.795074] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_c.c\n'}
+[0.795234] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.795407] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.795564] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.795719] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv\n'}
+[0.795871] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/__init__.py\n'}
+[0.796029] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/_altitud.py\n'}
+[0.796180] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/_altitud_s.c\n'}
+[0.796344] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.796508] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/libmission_control__rosidl_generator_py.so\n'}
+[0.800320] (-) TimerEvent: {}
+[0.839805] (mission_control) StdoutLine: {'line': b"Listing '/root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control'...\n"}
+[0.840105] (mission_control) StdoutLine: {'line': b"Listing '/root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv'...\n"}
+[0.846112] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.846602] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.847090] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.847588] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_py.so\n'}
+[0.847870] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud.idl\n'}
+[0.848127] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud.srv\n'}
+[0.848418] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud_Request.msg\n'}
+[0.848675] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud_Response.msg\n'}
+[0.848935] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control\n'}
+[0.849192] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/__init__.py\n'}
+[0.849384] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/mission_manager.py\n'}
+[0.849611] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/takeoff.py\n'}
+[0.849867] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/arm_drone.py\n'}
+[0.850091] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/takeoff\n'}
+[0.850333] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/arm_drone\n'}
+[0.850597] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/lib/mission_control/mission_manager\n'}
+[0.850811] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/package_run_dependencies/mission_control\n'}
+[0.851021] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/parent_prefix_path/mission_control\n'}
+[0.851256] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/ament_prefix_path.sh\n'}
+[0.851534] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/ament_prefix_path.dsv\n'}
+[0.851795] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/path.sh\n'}
+[0.851968] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/environment/path.dsv\n'}
+[0.852136] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.bash\n'}
+[0.852320] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.sh\n'}
+[0.852506] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.zsh\n'}
+[0.852676] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/local_setup.dsv\n'}
+[0.852844] (mission_control) StdoutLine: {'line': b'-- Installing: /root/DroneOpsROS/install/mission_control/share/mission_control/package.dsv\n'}
+[0.853014] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/ament_index/resource_index/packages/mission_control\n'}
+[0.853185] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cExport.cmake\n'}
+[0.853370] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.853547] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.853710] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.853882] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.854110] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.854310] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cExport.cmake\n'}
+[0.854616] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.854808] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cppExport.cmake\n'}
+[0.855198] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.855523] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.855747] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.856803] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.857210] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cppExport.cmake\n'}
+[0.857560] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.857886] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_pyExport.cmake\n'}
+[0.858215] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.858520] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake-extras.cmake\n'}
+[0.858954] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.859295] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.859515] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.860015] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.860255] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.860551] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.860775] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_controlConfig.cmake\n'}
+[0.860969] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_controlConfig-version.cmake\n'}
+[0.861160] (mission_control) StdoutLine: {'line': b'-- Up-to-date: /root/DroneOpsROS/install/mission_control/share/mission_control/package.xml\n'}
+[0.861422] (mission_control) CommandEnded: {'returncode': 0}
+[0.892053] (mission_control) JobEnded: {'identifier': 'mission_control', 'rc': 0}
+[0.900422] (-) TimerEvent: {}
+[1.000931] (-) TimerEvent: {}
+[1.045842] (vision_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vision_system', 'build', '--build-base', '/root/DroneOpsROS/build/vision_system/build', 'install', '--record', '/root/DroneOpsROS/build/vision_system/install.log', '--install-scripts', '$base/lib/vision_system', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/DroneOpsROS/src/vision_system', 'env': {'TMUX': '/tmp/tmux-0/default,802,0', 'HOSTNAME': 'Laptop-Mojarras', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/DroneOpsROS/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/root/DroneOpsROS/build/vision_system', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/DroneOpsROS/build/vision_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:/root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages:/root/DroneOpsROS/install/control_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%3'}, 'shell': False}
+[1.050337] (control_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/control_system', 'build', '--build-base', '/root/DroneOpsROS/build/control_system/build', 'install', '--record', '/root/DroneOpsROS/build/control_system/install.log', '--install-scripts', '$base/lib/control_system', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/DroneOpsROS/src/control_system', 'env': {'TMUX': '/tmp/tmux-0/default,802,0', 'HOSTNAME': 'Laptop-Mojarras', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/DroneOpsROS/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/root/DroneOpsROS/install/vision_system:/root/DroneOpsROS/install/mission_control:/root/DroneOpsROS/install/control_system:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/root/DroneOpsROS/build/control_system', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/DroneOpsROS/build/control_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/DroneOpsROS/install/control_system/lib/python3.10/site-packages:/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:/root/DroneOpsROS/install/mission_control/lib/python3.10/site-packages:/root/DroneOpsROS/install/control_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%3'}, 'shell': False}
+[1.101020] (-) TimerEvent: {}
+[1.201398] (-) TimerEvent: {}
+[1.301781] (-) TimerEvent: {}
+[1.313272] (control_system) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.314638] (control_system) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.314904] (vision_system) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.315118] (vision_system) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.325833] (control_system) StdoutLine: {'line': b'running egg_info\n'}
+[1.326155] (vision_system) StdoutLine: {'line': b'running egg_info\n'}
+[1.326972] (vision_system) StdoutLine: {'line': b'writing ../../build/vision_system/vision_system.egg-info/PKG-INFO\n'}
+[1.327331] (control_system) StdoutLine: {'line': b'writing ../../build/control_system/control_system.egg-info/PKG-INFO\n'}
+[1.327535] (vision_system) StdoutLine: {'line': b'writing dependency_links to ../../build/vision_system/vision_system.egg-info/dependency_links.txt\n'}
+[1.327720] (control_system) StdoutLine: {'line': b'writing dependency_links to ../../build/control_system/control_system.egg-info/dependency_links.txt\n'}
+[1.328011] (control_system) StdoutLine: {'line': b'writing entry points to ../../build/control_system/control_system.egg-info/entry_points.txt\n'}
+[1.328220] (vision_system) StdoutLine: {'line': b'writing entry points to ../../build/vision_system/vision_system.egg-info/entry_points.txt\n'}
+[1.328458] (vision_system) StdoutLine: {'line': b'writing requirements to ../../build/vision_system/vision_system.egg-info/requires.txt\n'}
+[1.328626] (vision_system) StdoutLine: {'line': b'writing top-level names to ../../build/vision_system/vision_system.egg-info/top_level.txt\n'}
+[1.328788] (control_system) StdoutLine: {'line': b'writing requirements to ../../build/control_system/control_system.egg-info/requires.txt\n'}
+[1.328961] (control_system) StdoutLine: {'line': b'writing top-level names to ../../build/control_system/control_system.egg-info/top_level.txt\n'}
+[1.330254] (vision_system) StdoutLine: {'line': b"reading manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'\n"}
+[1.331134] (control_system) StdoutLine: {'line': b"reading manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'\n"}
+[1.331497] (vision_system) StdoutLine: {'line': b"writing manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'\n"}
+[1.331744] (vision_system) StdoutLine: {'line': b'running build\n'}
+[1.331911] (vision_system) StdoutLine: {'line': b'running build_py\n'}
+[1.332113] (vision_system) StdoutLine: {'line': b'running install\n'}
+[1.332592] (vision_system) StdoutLine: {'line': b'running install_lib\n'}
+[1.332862] (control_system) StdoutLine: {'line': b"writing manifest file '../../build/control_system/control_system.egg-info/SOURCES.txt'\n"}
+[1.333111] (control_system) StdoutLine: {'line': b'running build\n'}
+[1.333303] (control_system) StdoutLine: {'line': b'running build_py\n'}
+[1.333665] (control_system) StdoutLine: {'line': b'running install\n'}
+[1.334193] (control_system) StdoutLine: {'line': b'running install_lib\n'}
+[1.334452] (vision_system) StdoutLine: {'line': b'running install_data\n'}
+[1.334692] (vision_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.335889] (control_system) StdoutLine: {'line': b'running install_data\n'}
+[1.336189] (control_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.336833] (vision_system) StdoutLine: {'line': b"removing '/root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.337246] (vision_system) StdoutLine: {'line': b'Copying ../../build/vision_system/vision_system.egg-info to /root/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system-0.0.0-py3.10.egg-info\n'}
+[1.338427] (vision_system) StdoutLine: {'line': b'running install_scripts\n'}
+[1.339024] (control_system) StdoutLine: {'line': b"removing '/root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.339547] (control_system) StdoutLine: {'line': b'Copying ../../build/control_system/control_system.egg-info to /root/DroneOpsROS/install/control_system/lib/python3.10/site-packages/control_system-0.0.0-py3.10.egg-info\n'}
+[1.340828] (control_system) StdoutLine: {'line': b'running install_scripts\n'}
+[1.367937] (vision_system) StdoutLine: {'line': b'Installing aruco_detector script to /root/DroneOpsROS/install/vision_system/lib/vision_system\n'}
+[1.368241] (vision_system) StdoutLine: {'line': b'Installing camera_node script to /root/DroneOpsROS/install/vision_system/lib/vision_system\n'}
+[1.368631] (vision_system) StdoutLine: {'line': b"writing list of installed files to '/root/DroneOpsROS/build/vision_system/install.log'\n"}
+[1.370374] (control_system) StdoutLine: {'line': b'Installing nodo_control script to /root/DroneOpsROS/install/control_system/lib/control_system\n'}
+[1.370919] (control_system) StdoutLine: {'line': b"writing list of installed files to '/root/DroneOpsROS/build/control_system/install.log'\n"}
+[1.401899] (-) TimerEvent: {}
+[1.403249] (vision_system) CommandEnded: {'returncode': 0}
+[1.417187] (vision_system) JobEnded: {'identifier': 'vision_system', 'rc': 0}
+[1.419574] (control_system) CommandEnded: {'returncode': 0}
+[1.428015] (control_system) JobEnded: {'identifier': 'control_system', 'rc': 0}
+[1.429017] (-) EventReactorShutdown: {}

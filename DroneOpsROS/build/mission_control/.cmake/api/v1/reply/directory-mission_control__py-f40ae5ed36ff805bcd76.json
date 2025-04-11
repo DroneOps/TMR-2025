@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mission_control__py",
+		"source" : "/root/DroneOpsROS/build/mission_control/mission_control__py"
+	}
+}
