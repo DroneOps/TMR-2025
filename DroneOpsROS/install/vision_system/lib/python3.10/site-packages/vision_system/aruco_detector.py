@@ -44,10 +44,10 @@ class ArucoDetectorNode(Node):
         # ---- SUBSCRIBER: CÁMARA REAL ----
         self.subscription = self.create_subscription(
             Image,
-            '/image_raw',  # <- Tópico para cámara real
+            '/camera/image',  # <- Tópico para cámara real
             self.image_callback,
             10)
-        self.subscription  # Evitar advertencias por variable sin usar
+        self.subscription
 
         # ---- PUBLISHER: PUBLICAR INFO DE ARUCO ----
         self.marker_info_publisher = self.create_publisher(Int32MultiArray, '/marker_info', 10)
@@ -63,15 +63,13 @@ class ArucoDetectorNode(Node):
         ], dtype=np.float32)
         self.camera_distortion = np.zeros((1, 5), dtype=np.float32)
 
-        # ---- SECCIÓN PARA CARGAR CALIBRACIÓN (SOLO PARA CÁMARA REAL) ----
         try:
-            calib_path = ""  # Coloca aquí la ruta de la calibración si usas cámara real
+            calib_path = ""  # Agrega ruta si tienes calibración
             self.camera_matrix = np.loadtxt(calib_path + 'cameraMatrix_webcam.txt', delimiter=',')
             self.camera_distortion = np.loadtxt(calib_path + 'cameraDistortion_webcam.txt', delimiter=',')
             self.get_logger().info("Camera calibration loaded successfully")
         except Exception as e:
             self.get_logger().warn("Using default camera calibration: " + str(e))
-        # ---- FIN DE SECCIÓN DE CÁMARA REAL ----
 
         # Matriz de rotación para corregir la orientación
         self.R_flip = np.array([[1,  0,  0],
@@ -80,24 +78,17 @@ class ArucoDetectorNode(Node):
 
         # ---- DETECTOR DE ARUCO ----
         self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_5X5_250)
-        self.aruco_params = cv2.aruco.DetectorParameters_create()
-        self.detector = (self.aruco_dict, self.aruco_params)
-
-
+        self.aruco_params = cv2.aruco.DetectorParameters()
+        self.detector = cv2.aruco.ArucoDetector(self.aruco_dict, self.aruco_params)
 
     def image_callback(self, msg):
         try:
-            # ---- CONVERTIR IMAGEN ROS A OpenCV ----
             frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
             # ---- DETECTAR ARUCO ----
-            corners, ids, rejected = cv2.aruco.detectMarkers(gray, self.aruco_dict, parameters=self.aruco_params)
+            corners, ids, rejected = self.detector.detectMarkers(gray)
 
-
-
-
-            # Arreglo para enviar información del marcador
             marker_data = []
 
             if ids is not None and len(ids) > 0:
@@ -114,13 +105,11 @@ class ArucoDetectorNode(Node):
                         R_ct = np.matrix(cv2.Rodrigues(rvec)[0])
                         R_tc = R_ct.T
                         euler_angles = rotationMatrixToEulerAngles(self.R_flip @ R_tc)
-                        yaw_marker = math.degrees(euler_angles[2])  # Ángulo de giro en grados
+                        yaw_marker = math.degrees(euler_angles[2])
 
-                        # Obtener posiciones X y Y
                         x_marker = tvec[0][0]
                         y_marker = tvec[0][1]
 
-                        # Agregar al mensaje
                         marker_data.extend([
                             int(marker_id),
                             int(x_marker),
@@ -128,18 +117,11 @@ class ArucoDetectorNode(Node):
                             int(yaw_marker)
                         ])
 
-            # ---- PUBLICAR INFORMACIÓN DEL MARCADOR ----
             if marker_data:
                 msg_to_publish = Int32MultiArray()
                 msg_to_publish.data = marker_data
                 self.marker_info_publisher.publish(msg_to_publish)
                 self.get_logger().info("Published marker info: " + str(marker_data))
-
-            # ---- SECCIÓN COMENTADA DE SIMULACIÓN ----
-            # Esto solo es útil si usas simulación, pero en hardware real no es necesario
-            # cv2.imshow("Aruco Detection", frame)
-            # cv2.waitKey(1)
-            # ---- FIN DE SECCIÓN DE SIMULACIÓN ----
 
         except Exception as e:
             self.get_logger().error("Error in image callback: " + str(e))
@@ -154,4 +136,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-# ---- FIN DEL NODO ----
+

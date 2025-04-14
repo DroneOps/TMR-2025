@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mission_control/srv/Altitud.srv
+// generated code does not contain a copyright notice
+
+
+module mission_control {
+  module srv {
+    struct Altitud_Request {
+      double altitud;
+    };
+    struct Altitud_Response {
+      double response_altitud;
+    };
+  };
+};

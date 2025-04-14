@@ -1,0 +1,6 @@
+{
+  "package_name": "mission_control",
+  "non_idl_tuples": [
+    "/home/manuel/TMR-2025/DroneOpsROS/src/mission_control:srv/Altitud.srv"
+  ]
+}

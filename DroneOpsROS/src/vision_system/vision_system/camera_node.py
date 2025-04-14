@@ -10,7 +10,7 @@ class CameraNode(Node):
         super().__init__('camera_node')
         
         # Publicador de imágenes en el tópico "/image_raw"
-        self.publisher = self.create_publisher(Image, '/image_raw', 10)
+        self.publisher = self.create_publisher(Image, 'camera/image', 10)
         
         # Inicializar OpenCV y el puente CvBridge
         self.bridge = CvBridge()

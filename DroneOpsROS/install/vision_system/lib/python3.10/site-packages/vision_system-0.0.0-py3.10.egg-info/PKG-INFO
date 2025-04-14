@@ -1,12 +1,13 @@
-Metadata-Version: 2.1
-Name: vision-system
+Metadata-Version: 2.4
+Name: vision_system
 Version: 0.0.0
 Summary: TODO: Package description
-Home-page: UNKNOWN
 Maintainer: root
 Maintainer-email: root@todo.todo
 License: TODO: License declaration
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

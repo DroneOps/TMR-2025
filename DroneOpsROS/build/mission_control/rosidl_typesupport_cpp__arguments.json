@@ -1,0 +1,17 @@
+{
+  "package_name": "mission_control",
+  "output_dir": "/home/manuel/TMR-2025/DroneOpsROS/build/mission_control/rosidl_typesupport_cpp/mission_control",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/manuel/TMR-2025/DroneOpsROS/build/mission_control/rosidl_adapter/mission_control:srv/Altitud.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/manuel/TMR-2025/DroneOpsROS/build/mission_control/rosidl_adapter/mission_control/srv/Altitud.idl"
+  ]
+}
