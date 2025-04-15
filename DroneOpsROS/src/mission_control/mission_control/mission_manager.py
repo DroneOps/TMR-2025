@@ -8,17 +8,22 @@ from rclpy.qos import QoSProfile
 from rclpy.qos import QoSDurabilityPolicy, QoSReliabilityPolicy
 from rclpy.qos import QoSHistoryPolicy
 from mission_control.srv import Altitud
+from std_msgs.msg import Int32MultiArray
 
 
 class mission_manager(Node): 
     def __init__(self):
         super().__init__('mission_manager') 
         self.armed_drone_signal = False
-        self.state = "Disarmed"  
-        self.armado = self.create_subscription(String, '/armed_drone',self.armed_callback,10)
+        self.state = "Disarmed" 
+
+        #suscripciones
+        self.armado = self.create_subscription(String, '/armed_drone', self.armed_callback, 10)
+        self.marker_sub = self.create_subscription(Int32MultiArray,'/marker_info',self.marker_callback,10)
+
         self.create_timer(1.0, self.control_loop)  # Loop de control de misión, se ejecuta cada segundo
         
-        #clientes a los servicios
+        # clientes a los servicios
         self.cli_takeoff = self.create_client(Altitud, 'takeoff_drone' )
 
         # Publicador para manejar el cambio de tareas
@@ -36,64 +41,60 @@ class mission_manager(Node):
         elif msg.data == "disarmed":
             self.armed_drone_signal = False
 
+    def marker_callback(self, msg):
+        if msg.data:  # Verifica que no esté vacío
+            self.id_aruco = msg.data[0]
+            self.get_logger().info(f'id del aruco detectado: {self.id_aruco}')
     
     def control_loop(self):
-        """
-        Este loop controla las misiones y cambia entre tareas.
-        """
-        if self.armed_drone_signal:
+        if self.state == "Disarmed" or self.armed_drone_signal == False:
             self.state = "init"
             self.publish_task("init")
-            
-
-        if self.state == "init":
+    
+        # Pasar a esperar comando de takeoff
+        elif self.state == "init" and self.id_aruco == 100:
             self.state = "takeoff"
             self.publish_task("takeoff")
-        
-
-        ##ESTADO TAKEOFF##
+    
+        # takeoff y llamamamos al takeoff con la altitud que queremos
         elif self.state == "takeoff":
-            while not self.cli.wait_for_service(timeout_sec=1.0):
-                self.get_logger().info('Esperando Despegue...')
+            if not self.cli_takeoff.wait_for_service(timeout_sec=1.0):
+                self.get_logger().info('⏳ Esperando servicio de despegue...')
+                return
 
-            #mandar la altitud deseada
-            self.req_takeoff = Altitud.Request()
-            self.req_takeoff.altitud = 1.5 #altitud
+            req = Altitud.Request()
+            req.altitud = 1.5  # desired altitude in meters
 
-            # Llama al servicio de forma asíncrona y espera su respuesta
-            future = self.cli.call_async(self.req_takeoff)
+            future = self.cli_takeoff.call_async(req)
             rclpy.spin_until_future_complete(self, future)
 
             if future.result() is not None:
-                self.get_logger().info(f"Despegue iniciado, altitud recibida: {future.result().response_altitud} m")
+                self.get_logger().info(
+                    f"🛫 Despegue iniciado, altitud recibida: {future.result().response_altitud} m")
                 self.state = "takeoff_complete"
                 self.publish_task("takeoff_complete")
             else:
-                self.get_logger().error("Error al llamar al servicio de despegue")
+                self.get_logger().error("❌ Error al llamar al servicio de despegue")
+    
 
-        ##ESTADO TAKEOFF_COMPLETE##
         elif self.state == "takeoff_complete":
-
             self.state = "aruco_nav"
             self.publish_task("aruco_nav")
-        
+
         elif self.state == "aruco_nav":
-            # Llamar a la lógica para navegar hacia el ArUco
-            
             self.state = "line_follow"
             self.publish_task("line_follow")
-        
+    
+
         elif self.state == "line_follow":
-            # Llamar a la lógica para seguir la línea
             self.state = "final_task"
             self.publish_task("final_task")
-        
+    
+
         elif self.state == "final_task":
-            # Realizar la tarea final (ej. aterrizaje o acción final)
             self.state = "mission_complete"
             self.publish_task("mission_complete")
 
-   
 
     def publish_task(self, task_name: str):
         """
@@ -104,12 +105,14 @@ class mission_manager(Node):
         self.task_publisher.publish(msg)
         self.get_logger().info(f"Task {task_name} initiated")
 
+
 def main(args=None):
     rclpy.init(args=args)
     node = mission_manager()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
