@@ -1,0 +1,70 @@
+[0.509s] Invoking command in '/home/manuel/TMR-2025/DroneOpsROS/src/vision_system': PYTHONPATH=/home/manuel/TMR-2025/DroneOpsROS/build/vision_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_system build --build-base /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build install --record /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/install.log --install-scripts $base/lib/vision_system --single-version-externally-managed install_data
+[0.615s] /home/manuel/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[0.615s] !!
+[0.616s] 
+[0.616s]         ********************************************************************************
+[0.616s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.616s]         versions. Please use the underscore name 'script_dir' instead.
+[0.616s] 
+[0.616s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[0.616s]         or your builds will no longer be supported.
+[0.616s] 
+[0.616s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.616s]         ********************************************************************************
+[0.616s] 
+[0.617s] !!
+[0.617s]   opt = self._enforce_underscore(opt, section)
+[0.625s] /home/manuel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.625s]   warnings.warn(msg)
+[0.645s] /home/manuel/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[0.645s] !!
+[0.645s] 
+[0.645s]         ********************************************************************************
+[0.645s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.645s]         versions. Please use the underscore name 'script_dir' instead.
+[0.645s]         (Affected: vision_system).
+[0.645s] 
+[0.645s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[0.646s]         or your builds will no longer be supported.
+[0.646s] 
+[0.646s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.646s]         ********************************************************************************
+[0.646s] 
+[0.646s] !!
+[0.646s]   opt = self._enforce_underscore(opt, section)
+[0.683s] running egg_info
+[0.692s] creating ../../build/vision_system/vision_system.egg-info
+[0.692s] writing ../../build/vision_system/vision_system.egg-info/PKG-INFO
+[0.692s] writing dependency_links to ../../build/vision_system/vision_system.egg-info/dependency_links.txt
+[0.692s] writing entry points to ../../build/vision_system/vision_system.egg-info/entry_points.txt
+[0.692s] writing requirements to ../../build/vision_system/vision_system.egg-info/requires.txt
+[0.692s] writing top-level names to ../../build/vision_system/vision_system.egg-info/top_level.txt
+[0.693s] writing manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'
+[0.711s] reading manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'
+[0.712s] writing manifest file '../../build/vision_system/vision_system.egg-info/SOURCES.txt'
+[0.712s] running build
+[0.712s] running build_py
+[0.713s] creating /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.713s] copying vision_system/aruco_detector.py -> /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.713s] copying vision_system/camera_node.py -> /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.713s] copying vision_system/__init__.py -> /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build/lib/vision_system
+[0.713s] running install
+[0.716s] running install_lib
+[0.726s] creating /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.726s] copying /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build/lib/vision_system/aruco_detector.py -> /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.726s] copying /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build/lib/vision_system/camera_node.py -> /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.726s] copying /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build/lib/vision_system/__init__.py -> /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system
+[0.726s] byte-compiling /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/aruco_detector.py to aruco_detector.cpython-310.pyc
+[0.727s] byte-compiling /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/camera_node.py to camera_node.cpython-310.pyc
+[0.727s] byte-compiling /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system/__init__.py to __init__.cpython-310.pyc
+[0.728s] running install_data
+[0.728s] creating /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/share/ament_index/resource_index/packages
+[0.728s] copying resource/vision_system -> /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/share/ament_index/resource_index/packages
+[0.728s] copying package.xml -> /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/share/vision_system
+[0.728s] running install_egg_info
+[0.739s] Copying ../../build/vision_system/vision_system.egg-info to /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages/vision_system-0.0.0-py3.10.egg-info
+[0.739s] running install_scripts
+[0.817s] Installing aruco_detector script to /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/vision_system
+[0.817s] Installing camera_node script to /home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/vision_system
+[0.817s] writing list of installed files to '/home/manuel/TMR-2025/DroneOpsROS/build/vision_system/install.log'
+[0.838s] Invoked command in '/home/manuel/TMR-2025/DroneOpsROS/src/vision_system' returned '0': PYTHONPATH=/home/manuel/TMR-2025/DroneOpsROS/build/vision_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_system build --build-base /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/build install --record /home/manuel/TMR-2025/DroneOpsROS/build/vision_system/install.log --install-scripts $base/lib/vision_system --single-version-externally-managed install_data

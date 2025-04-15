@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d55880faf85e90bd78ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "control_system__py",
+					"jsonFile" : "directory-control_system__py-6671db6087ab5d17b93d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/manuel/TMR-2025/DroneOpsROS/build/control_system/control_system__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "control_system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_control_system_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_control_system_egg-720c497d5fac59cadcb1.json",
+					"name" : "ament_cmake_python_build_control_system_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_control_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_control_system-54bb0fac4f01c33075c8.json",
+					"name" : "ament_cmake_python_copy_control_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system-a70ebe988e7a31f6e628.json",
+					"name" : "control_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__cpp-b30d37246e7f6769a1c5.json",
+					"name" : "control_system__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "control_system__py::@d292f7a4b602d13750f0",
+					"jsonFile" : "target-control_system__py-59049b39985e9fb39f2a.json",
+					"name" : "control_system__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_generator_c-1148d6ba00806f50cfa6.json",
+					"name" : "control_system__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_generator_py-192004ed48d697e037ee.json",
+					"name" : "control_system__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_c-738490b74f4aabe3237b.json",
+					"name" : "control_system__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_c__pyext-475cbe695be7e425fe76.json",
+					"name" : "control_system__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_cpp-12e35d2e8e6b1c88480d.json",
+					"name" : "control_system__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_fastrtps_c-380e3d5ed2ed510d3cc1.json",
+					"name" : "control_system__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_fastrtps_c__pyext-4b9a59c5ede123edb7d4.json",
+					"name" : "control_system__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_fastrtps_cpp-217453a4fce7945ee92d.json",
+					"name" : "control_system__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_introspection_c-fc0d03b04d5c5f96ad80.json",
+					"name" : "control_system__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_introspection_c__pyext-c7b9d5e317a8c960b662.json",
+					"name" : "control_system__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system__rosidl_typesupport_introspection_cpp-3e5ad13f292176a4a6bb.json",
+					"name" : "control_system__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_system_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_system_uninstall-f51001cca304a94a50fb.json",
+					"name" : "control_system_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4137a57df0a26377d555.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/manuel/TMR-2025/DroneOpsROS/build/control_system",
+		"source" : "/home/manuel/TMR-2025/DroneOpsROS/src/control_system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

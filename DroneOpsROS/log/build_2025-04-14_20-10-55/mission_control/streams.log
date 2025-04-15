@@ -1,0 +1,243 @@
+[0.010s] Invoking command in '/home/manuel/TMR-2025/DroneOpsROS/build/mission_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system:/home/manuel/ros2_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/manuel/TMR-2025/DroneOpsROS/src/mission_control -DCMAKE_INSTALL_PREFIX=/home/manuel/TMR-2025/DroneOpsROS/install/mission_control
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.264s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.588s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.693s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.975s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.329s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.330s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.356s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.356s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.356s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.378s] -- Found PythonExtra: .so  
+[1.408s] -- Configuring done
+[1.422s] -- Generating done
+[1.428s] -- Build files have been written to: /home/manuel/TMR-2025/DroneOpsROS/build/mission_control
+[1.436s] Invoked command in '/home/manuel/TMR-2025/DroneOpsROS/build/mission_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system:/home/manuel/ros2_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/manuel/TMR-2025/DroneOpsROS/src/mission_control -DCMAKE_INSTALL_PREFIX=/home/manuel/TMR-2025/DroneOpsROS/install/mission_control
+[1.437s] Invoking command in '/home/manuel/TMR-2025/DroneOpsROS/build/mission_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system:/home/manuel/ros2_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/manuel/TMR-2025/DroneOpsROS/build/mission_control -- -j12 -l12
+[1.473s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.483s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.493s] [  6%] Built target ament_cmake_python_copy_mission_control
+[1.672s] running egg_info
+[1.684s] creating mission_control.egg-info
+[1.684s] writing mission_control.egg-info/PKG-INFO
+[1.685s] writing dependency_links to mission_control.egg-info/dependency_links.txt
+[1.685s] writing top-level names to mission_control.egg-info/top_level.txt
+[1.685s] writing manifest file 'mission_control.egg-info/SOURCES.txt'
+[1.704s] [  6%] Built target mission_control__cpp
+[1.719s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.719s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.719s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.721s] reading manifest file 'mission_control.egg-info/SOURCES.txt'
+[1.722s] writing manifest file 'mission_control.egg-info/SOURCES.txt'
+[1.753s] [ 16%] Built target ament_cmake_python_build_mission_control_egg
+[1.854s] [ 19%] [32mBuilding C object CMakeFiles/mission_control__rosidl_generator_c.dir/rosidl_generator_c/mission_control/srv/detail/altitud__functions.c.o[0m
+[1.865s] [ 22%] [32m[1mLinking C shared library libmission_control__rosidl_generator_c.so[0m
+[1.920s] [ 22%] Built target mission_control__rosidl_generator_c
+[1.936s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.937s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.937s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.121s] [ 35%] [32mBuilding CXX object CMakeFiles/mission_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_control/srv/detail/altitud__type_support.cpp.o[0m
+[2.152s] [ 38%] [32m[1mLinking CXX shared library libmission_control__rosidl_typesupport_introspection_cpp.so[0m
+[2.162s] [ 41%] [32mBuilding CXX object CMakeFiles/mission_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_control/srv/altitud__type_support.cpp.o[0m
+[2.183s] [ 45%] [32mBuilding CXX object CMakeFiles/mission_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_control/srv/detail/dds_fastrtps/altitud__type_support.cpp.o[0m
+[2.191s] [ 48%] [32m[1mLinking CXX shared library libmission_control__rosidl_typesupport_cpp.so[0m
+[2.208s] [ 51%] [32m[1mLinking CXX shared library libmission_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.232s] [ 51%] Built target mission_control__rosidl_typesupport_introspection_cpp
+[2.273s] [ 51%] Built target mission_control__rosidl_typesupport_cpp
+[2.331s] [ 51%] Built target mission_control__rosidl_typesupport_fastrtps_cpp
+[2.375s] [ 54%] [32mBuilding CXX object CMakeFiles/mission_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_control/srv/altitud__type_support.cpp.o[0m
+[2.388s] [ 58%] [32m[1mLinking CXX shared library libmission_control__rosidl_typesupport_c.so[0m
+[2.408s] [ 61%] [32mBuilding C object CMakeFiles/mission_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_control/srv/detail/altitud__type_support.c.o[0m
+[2.421s] [ 64%] [32m[1mLinking C shared library libmission_control__rosidl_typesupport_introspection_c.so[0m
+[2.433s] [ 67%] [32mBuilding CXX object CMakeFiles/mission_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_control/srv/detail/altitud__type_support_c.cpp.o[0m
+[2.441s] [ 67%] Built target mission_control__rosidl_typesupport_c
+[2.448s] [ 70%] [32m[1mLinking CXX shared library libmission_control__rosidl_typesupport_fastrtps_c.so[0m
+[2.457s] [ 70%] Built target mission_control__rosidl_typesupport_introspection_c
+[2.525s] [ 70%] Built target mission_control__rosidl_typesupport_fastrtps_c
+[2.543s] [ 70%] Built target mission_control
+[2.562s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.794s] [ 74%] Built target mission_control__py
+[2.816s] [ 77%] [32mBuilding C object CMakeFiles/mission_control__rosidl_generator_py.dir/rosidl_generator_py/mission_control/srv/_altitud_s.c.o[0m
+[2.831s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/mission_control/libmission_control__rosidl_generator_py.so[0m
+[2.866s] [ 80%] Built target mission_control__rosidl_generator_py
+[2.887s] [ 83%] [32mBuilding C object CMakeFiles/mission_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mission_control/_mission_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.889s] [ 87%] [32mBuilding C object CMakeFiles/mission_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mission_control/_mission_control_s.ep.rosidl_typesupport_c.c.o[0m
+[2.889s] [ 90%] [32mBuilding C object CMakeFiles/mission_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mission_control/_mission_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.899s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.904s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.904s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.932s] [100%] Built target mission_control__rosidl_typesupport_introspection_c__pyext
+[2.940s] [100%] Built target mission_control__rosidl_typesupport_c__pyext
+[2.941s] [100%] Built target mission_control__rosidl_typesupport_fastrtps_c__pyext
+[2.949s] Invoked command in '/home/manuel/TMR-2025/DroneOpsROS/build/mission_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system:/home/manuel/ros2_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/manuel/TMR-2025/DroneOpsROS/build/mission_control -- -j12 -l12
+[2.960s] Invoking command in '/home/manuel/TMR-2025/DroneOpsROS/build/mission_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system:/home/manuel/ros2_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/manuel/TMR-2025/DroneOpsROS/build/mission_control
+[2.968s] -- Install configuration: ""
+[2.968s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/ament_index/resource_index/rosidl_interfaces/mission_control
+[2.969s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[2.969s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[2.969s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/altitud.h
+[2.969s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[2.969s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.h
+[2.969s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__functions.h
+[2.969s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__functions.c
+[2.970s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__struct.h
+[2.970s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[2.970s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_generator_c__visibility_control.h
+[2.970s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/library_path.sh
+[2.970s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/library_path.dsv
+[2.970s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_c.so
+[2.970s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_c.so" to ""
+[2.970s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[2.971s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[2.971s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[2.971s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_fastrtps_c.h
+[2.971s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[2.971s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.971s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_c.so
+[2.971s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_c.so" to ""
+[2.971s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[2.971s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[2.972s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[2.972s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_introspection_c.h
+[2.972s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.c
+[2.972s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[2.972s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.972s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_c.so
+[2.972s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_c.so" to ""
+[2.972s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_c.so
+[2.973s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_c.so" to ""
+[2.973s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[2.973s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[2.973s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/altitud.hpp
+[2.973s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[2.973s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__struct.hpp
+[2.973s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__traits.hpp
+[2.973s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.hpp
+[2.974s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__builder.hpp
+[2.974s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[2.974s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.974s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[2.974s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[2.974s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[2.974s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_fastrtps_cpp.hpp
+[2.974s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/dds_fastrtps
+[2.974s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg
+[2.974s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.974s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_cpp.so
+[2.974s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.974s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control
+[2.975s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv
+[2.975s] -- Up-to-date: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail
+[2.975s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__type_support.cpp
+[2.975s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/include/mission_control/mission_control/srv/detail/altitud__rosidl_typesupport_introspection_cpp.hpp
+[2.975s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_cpp.so
+[2.975s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_introspection_cpp.so" to ""
+[2.975s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_cpp.so
+[2.975s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_typesupport_cpp.so" to ""
+[2.975s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/pythonpath.sh
+[2.975s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/pythonpath.dsv
+[2.975s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/PKG-INFO
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/top_level.txt
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/_altitud_s.c
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/_altitud.py
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/__init__.py
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.976s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_c.c
+[2.977s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.977s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.977s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.977s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/libmission_control__rosidl_generator_py.so
+[2.977s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/__init__.py
+[2.977s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/_mission_control_s.ep.rosidl_typesupport_introspection_c.c
+[3.007s] Listing '/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control'...
+[3.008s] Compiling '/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/__init__.py'...
+[3.008s] Listing '/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv'...
+[3.008s] Compiling '/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/__init__.py'...
+[3.008s] Compiling '/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/srv/_altitud.py'...
+[3.012s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.012s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.012s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.012s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.013s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.013s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/local/lib/python3.10/dist-packages/mission_control/mission_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.013s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_py.so
+[3.013s] -- Set runtime path of "/home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/libmission_control__rosidl_generator_py.so" to ""
+[3.013s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud.idl
+[3.014s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud.srv
+[3.014s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud_Request.msg
+[3.014s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/srv/Altitud_Response.msg
+[3.014s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control
+[3.014s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control/takeoff.py
+[3.014s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control/arm_drone.py
+[3.014s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control/mission_manager.py
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control/__init__.py
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/launch
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/launch/mavros_launch.py
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/launch/full_mission_launch.py
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control/takeoff
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control/arm_drone
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/lib/mission_control/mission_manager
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/ament_index/resource_index/package_run_dependencies/mission_control
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/ament_index/resource_index/parent_prefix_path/mission_control
+[3.015s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/ament_prefix_path.sh
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/ament_prefix_path.dsv
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/path.sh
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/environment/path.dsv
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/local_setup.bash
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/local_setup.sh
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/local_setup.zsh
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/local_setup.dsv
+[3.016s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/package.dsv
+[3.017s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/ament_index/resource_index/packages/mission_control
+[3.017s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cExport.cmake
+[3.017s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cExport-noconfig.cmake
+[3.017s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cExport.cmake
+[3.017s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.017s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cExport.cmake
+[3.018s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.018s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cExport.cmake
+[3.018s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cExport-noconfig.cmake
+[3.018s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_cppExport.cmake
+[3.018s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.018s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.018s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cppExport.cmake
+[3.019s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.019s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cppExport.cmake
+[3.019s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_control__rosidl_typesupport_cppExport-noconfig.cmake
+[3.019s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_pyExport.cmake
+[3.019s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/export_mission_control__rosidl_generator_pyExport-noconfig.cmake
+[3.019s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake-extras.cmake
+[3.019s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.020s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_libraries-extras.cmake
+[3.020s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_targets-extras.cmake
+[3.020s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.020s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.020s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.020s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_controlConfig.cmake
+[3.020s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/cmake/mission_controlConfig-version.cmake
+[3.021s] -- Installing: /home/manuel/TMR-2025/DroneOpsROS/install/mission_control/share/mission_control/package.xml
+[3.024s] Invoked command in '/home/manuel/TMR-2025/DroneOpsROS/build/mission_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/TMR-2025/DroneOpsROS/install/vision_system:/home/manuel/ros2_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/manuel/TMR-2025/DroneOpsROS/build/mission_control

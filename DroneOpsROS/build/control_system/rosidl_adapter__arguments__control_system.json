@@ -1,0 +1,6 @@
+{
+  "package_name": "control_system",
+  "non_idl_tuples": [
+    "/home/manuel/TMR-2025/DroneOpsROS/src/control_system:srv/Altitud.srv"
+  ]
+}

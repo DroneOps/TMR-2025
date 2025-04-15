@@ -1,2 +1,0 @@
-[console_scripts]
-nodo_control = control_system.nodo_control:main
