@@ -1,0 +1,14 @@
+material ArucoMarker/aruco_marker
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_marker.png
+      }
+    }
+  }
+}
+
